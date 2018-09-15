@@ -1,0 +1,50 @@
+:root {
+	--prussian-blue: #003153;
+	--chrome-yellow: #ffa700;
+}
+
+main {
+	width: 100%;
+	height: 100%;
+}
+
+header {
+	border: 1px solid var(--prussian-blue);
+	/*background-color: var(--prussian-blue);*/
+}
+
+footer {
+
+}
+
+h1, h5, h6 {
+	font-family: verdana;
+	color: var(--prussian-blue);
+}
+
+h1 {
+	font-size: 3.5rem;
+}
+
+h2 {
+	text-align: center;
+}
+
+h5 {
+	font-size: 1.35rem;
+}
+
+h6 {
+	font-size: 1.35rem;
+	margin-top:1.5%;
+}
+
+#logo-image {
+	float: left;
+}
+
+/*override*/
+
+.nav-item {
+ 	font-size: 20pt;
+}
