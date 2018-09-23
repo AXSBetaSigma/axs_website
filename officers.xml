@@ -1,0 +1,38 @@
+<Officers>
+	<Officer>
+		<Position>Master Alchemist</Position>
+		<FirstName>Daniel</FirstName>
+		<LastName>Verrico</LastName>
+		<Major>Chemistry</Major>
+		<Class>2019?</Class>
+		<PledgeYear>?</PledgeYear>
+		<Email>mabetasigma@gmail.com</Email>
+	</Officer>
+	<Officer>
+		<Position>Vice-Master Alchemist</Position>
+		<FirstName>William</FirstName>
+		<LastName>Charbonneau</LastName>
+		<Major>Chemistry</Major>
+		<Class>2019?</Class>
+		<PledgeYear>?</PledgeYear>
+		<Email>vmabetasigma@gmail.com</Email>
+	</Officer>
+	<Officer>
+		<Position>Master of Ceremonies</Position>
+		<FirstName>Kevin</FirstName>
+		<LastName>Hernandez</LastName>
+		<Major>Chemistry</Major>
+		<Class>2019?</Class>
+		<PledgeYear>?</PledgeYear>
+		<Email>mcbetasigma@gmail.com</Email>
+	</Officer>
+	<Officer>
+		<Position>Treasurer</Position>
+		<FirstName>Samantha</FirstName>
+		<LastName>Berger</LastName>
+		<Major>Chemistry</Major>
+		<Class>2020</Class>
+		<PledgeYear>?</PledgeYear>
+		<Email>treasurybetasigma@gmail.com</Email>
+	</Officer>
+</Officers>

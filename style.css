@@ -20,6 +20,7 @@ footer {
 h1, h5, h6 {
 	font-family: verdana;
 	color: var(--prussian-blue);
+	text-align: right;
 }
 
 h1 {
@@ -43,8 +44,34 @@ h6 {
 	float: left;
 }
 
-/*override*/
+fieldset {
+	margin: 2% 2% 2% 2%;
+	border: 1px solid var(--prussian-blue);
+	padding: 5% 5% 5% 5%;
+}
 
+legend {
+	width: 256px;
+	text-align: center;
+	/*left: auto;*/
+	/*right: auto;*/
+}
+
+.chem-linedraw {
+	fill: none;
+	stroke: var(--prussian-blue);
+	stroke-width: 2px;
+}
+
+/*override*/
 .nav-item {
  	font-size: 20pt;
+}
+
+.active {
+	color: black;
+}
+
+.active a{
+	color: inherit;
 }

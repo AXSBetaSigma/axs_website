@@ -26,7 +26,6 @@ navbar = document.getElementById("main-nav-bar")
 for (node=navbar.firstElementChild; node != null; node = node.nextElementSibling) {
 
 	links_to = node.firstElementChild.attributes['href'].value;
-	console.log(links_to);
 	if (location.pathname.endsWith(links_to)) {
 		node.classList.add("active");
 		break;
