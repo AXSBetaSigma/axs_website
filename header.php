@@ -7,14 +7,20 @@
 		<li class="nav-item">
 			<a class='nav-link' href="index.php">home</a>
 		</li>
+		<li class="nav-item">
+			<a class='nav-link' href="about_us.php">about us</a>
+		</li>
 		<li class="nav-item" >
 			<a class='nav-link' href="events.php">events</a>
 		</li>
 		<li class="nav-item">
-			<a class='nav-link' href="become_a_brother.php">become a Brother</a>
+			<a class='nav-link' href="meet_brother.php">meet the brothers</a>
 		</li>
 		<li class="nav-item">
-			<a class='nav-link' href="about_us.php">about us</a>
+			<a class='nav-link' href="become_a_brother.php">become a brother</a>
+		</li>
+		<li class="nav-item">
+			<a class='nav-link' href="https://www.alphachisigma.org/">national website</a>
 		</li>
 		<li class="nav-item">
 			<a class='nav-link' href="contact_us.php">contact us</a>

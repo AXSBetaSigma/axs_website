@@ -4,13 +4,28 @@
 		<title>AXS Beta Sigma - About Us</title>
 		<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 		<link rel='stylesheet' href='css/bootstrap.css' type='text/css'>
-		<link rel='stylesheet' href='js/bootstrap.js' type='text/javascript'>
 		<link rel='stylesheet' href='style.css' type='text/css'>
+		<script type="text/javascript" src="js/bootstrap.js"></script>
+		<script src="https://d3js.org/d3.v4.min.js"></script>
+		<script type="text/javascript" src="scripts.js"></script>
 	</head>
 	<body>
 		<?php include('header.php'); ?>
+		<h3>About Alpha Chi Sigma</h3>
+		<p>		
+			Alpha Chi Sigma is a professional, co-ed fraternity that initiates men and women interested in or associated with the field of Chemistry. There are upwards of 80 collegiate and Professional Chapters throughout the United States, with current membership numbering more than 63,400 members. Membership is for life. For more information about the fraternity itself, please take a look at the <a href="https://www.alphachisigma.org/">National Alpha Chi Sigma Website</a>.
+		</p>
 		<p>
-			Welcome to the website of the Beta Sigma chapter of the Alpha Chi Sigma professional co-ed chemistry fraternity, located at Rochester Institute of Technology in Rochester, NY.
+			The aims of our fraternity, held by all of our members are as follows:
+			<ol>
+				<li>To bind its members with a tie of true and lasting friendship.</li>
+				<li>To strive for the advancement of Chemistry both as a science and as a profession.</li>
+				<li>To aid its members by every honorable means in the attainment of their ambitions as chemists throughout their mortal lives.</li>
+			</ol>
+		</p>
+		<h3>Beta Sigma Chapter</h3>
+		<p>
+			The Beta Sigma chapter of the Alpha Chi Sigma fraternity is located at Rochester Institute of Technology in Rochester, New York. The Beta Sigma chapter was founded in 1966 in Rochester, and has since initiated hundreds of brothers. Our chapter is comprised of active, inactive, and alumni members ranging in disciplines from Biology and Chemistry, to Engineering. Our chapter is involved in several local community service projects and professional outreach programs in the city of Rochester and at RIT.
 		</p>
 		<?php include('footer.php'); ?> 
 	</body>
