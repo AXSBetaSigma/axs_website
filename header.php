@@ -1,8 +1,15 @@
 <header class="container-fluid">
-	<img id='logo-image' src='images/axs_logo.png'>
-	<h6 class='text-uppercase'>professional co-ed chemistry fraternity</h6>
-	<h1 class='text-uppercase'>alpha chi sigma</h1>
-	<h5>beta sigma chapter</h5>
+	<div class="header-subsection">
+		<img id='logo-image'  src='images/axs_logo.png'>
+	</div>
+	<div class="header-subsection" style="margin-left: auto; margin-right: auto;">
+		<span id="aims">to bind &#11041; to strive &#11041; to aid</span>
+	</div>
+	<div class="header-subsection">
+		<h6 class='text-uppercase'>professional co-ed chemistry fraternity</h6>
+		<h1 class='text-uppercase'>alpha chi sigma</h1>
+		<h5>beta sigma chapter</h5>
+	</div>
 	<ul id="main-nav-bar" class="container-fluid nav nav-pills nav-fill text-uppercase" style="clear: both;">
 		<li class="nav-item">
 			<a class='nav-link' href="index.php">home</a>

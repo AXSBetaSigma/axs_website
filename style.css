@@ -1,6 +1,8 @@
 :root {
-	--prussian-blue: #003153;
-	--chrome-yellow: #ffa700;
+	/*--prussian-blue: #003153;*/
+	--prussian-blue: #0000b3;
+	/*--chrome-yellow: #ffa700;*/
+	--chrome-yellow: #ffcc00;
 }
 
 main {
@@ -10,7 +12,11 @@ main {
 
 header {
 	border: 1px solid var(--prussian-blue);
-	/*background-color: var(--prussian-blue);*/
+	background-color: var(--chrome-yellow);
+}
+
+#main-nav-bar {
+	background-color: var(--prussian-blue);
 }
 
 footer {
@@ -45,7 +51,21 @@ p {
 }
 
 #logo-image {
-	float: left;
+	/*float: left;*/
+	width: 15rem;
+	height: 15rem;
+}
+
+.header-subsection {
+	display: inline-block;
+	font-family: impact;
+	width: 33%;
+}
+
+#aims {
+	font-style: bold;
+	font-size: 3.3rem;
+	color: var(--prussian-blue);
 }
 
 #events-small {
@@ -138,6 +158,10 @@ legend {
 /*override*/
 .nav-item {
  	font-size: 20pt;
+}
+
+.nav-link {
+	color: var(--chrome-yellow);
 }
 
 .active {

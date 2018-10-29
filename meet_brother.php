@@ -21,7 +21,7 @@
 				function draw_brothers() {
 					sel = d3.select("#brothers").selectAll("section").data(bros).enter();
 					section = sel.append("section")
-						.attr("id", function(x){return x.fn + x.ln;})
+						.attr("id", function(x){return x.fn + x.ln;}) // set this object to have a unique ID for easy access. [firstname][lastname] should be unique I think
 						.attr("class", "bro");
 					section.append("img")
 						.attr("class", "bro-portrait")
@@ -49,7 +49,7 @@
 				    		return true;
 				    	}
 				        load_brothers(xml, bros, filter);
-				        sort_brothers();
+				        // sort_brothers();
 				        draw_brothers();
 				    }
 				};
