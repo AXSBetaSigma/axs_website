@@ -4,7 +4,7 @@
 		<FirstName>Daniel</FirstName>
 		<LastName>Verrico</LastName>
 		<Major>Chemistry</Major>
-		<Class>2019?</Class>
+		<Class>2018</Class>
 		<PledgeYear>Fall '15</PledgeYear>
 		<Email>mabetasigma@gmail.com</Email>
 		<Bio>
@@ -16,8 +16,8 @@
 		<FirstName>William</FirstName>
 		<LastName>Charbonneau</LastName>
 		<Major>Chemistry</Major>
-		<Class>2019?</Class>
-		<PledgeYear>?</PledgeYear>
+		<Class>2019</Class>
+		<PledgeYear>Spring '17</PledgeYear>
 		<Email>vmabetasigma@gmail.com</Email>
 		<Bio>
 			Will has a nice ponytail
@@ -28,7 +28,7 @@
 		<FirstName>Kevin</FirstName>
 		<LastName>Hernandez</LastName>
 		<Major>Chemistry</Major>
-		<Class>2019?</Class>
+		<Class>2019</Class>
 		<PledgeYear>Spring '16</PledgeYear>
 		<Email>mcbetasigma@gmail.com</Email>
 		<Bio>
@@ -44,7 +44,7 @@
 		<PledgeYear>Fall '17</PledgeYear>
 		<Email>treasurybetasigma@gmail.com</Email>
 		<Bio>
-			Sam is no fun			
+			Sam is from a small town in New York. She is very glad to be here at RIT and to be a brother of Alpha Chi Sigma.			
 		</Bio>
 	</Brother>
 	<Brother>
@@ -56,7 +56,7 @@
 		<PledgeYear>Spring '18</PledgeYear>
 		<Email>n/a</Email>
 		<Bio>
-			I am a fourth year from Edmeston, New York, planning to pursue a career in geology.  I'm very involved on campus outside of AXS; including TAing organic and analytical chemistry labs, being a student ambassador and volunteer for the College of Science, a New Student Orientation Leader for the past two years, and the president of a club.  This May I spent several weeks in Sweden studying urban ecology and sustainable development, and I hope to return to Scandinavia for graduate school following my last year at RIT.
+			Lexie is a fourth year chemistry student with a focus in environmental science and a minor in language science.  She is currently the Reporter and social committee chair of the Beta Sigma chapter.  Outside of AXS Lexie is very involved on RIT’s campus; she is a dancer and former E-Board member of the Vis Viva Dance Company, is a College if Science Student Ambassador, an eager volunteer for the School of Chemistry and Material Science, and has also been a lab teaching assistant and Orientation Leader in the past.  After RIT she hopes to pursue a geosciences career in glaciology and paleoclimatology.
 		</Bio>
 	</Brother>
 	<Brother>
@@ -69,6 +69,18 @@
 		<Email>n/a</Email>
 		<Bio>
 			Eliot is devoid of all attributes due to an unfortunate curse.
+		</Bio>
+	</Brother>
+		<Brother>
+		<Position>Professional Chair</Position>
+		<FirstName>Jordan</FirstName>
+		<LastName>Dejewski</LastName>
+		<Major>Biochemistry</Major>
+		<Class></Class>
+		<PledgeYear>Spring '18</PledgeYear>
+		<Email>n/a</Email>
+		<Bio>
+			
 		</Bio>
 	</Brother>
 	<Brother>
@@ -96,21 +108,10 @@
 		</Bio>
 	</Brother>
 	<Brother>
-		<Position>Professional Chair</Position>
-		<FirstName>Jordan</FirstName>
-		<LastName>Dejewski</LastName>
-		<Major>Biochemistry</Major>
-		<Class></Class>
-		<PledgeYear>Spring '18</PledgeYear>
-		<Email>n/a</Email>
-		<Bio>
-			
-		</Bio>
-	</Brother>
-	<Brother>
 		<Position>Public Relations Chair</Position>
 		<FirstName>Hannah</FirstName>
 		<LastName>Thompson</LastName>
+		<Big>Kevin Hernandez</Big>
 		<Major>Biomedical Engineering BS and Science Technology and Public Policy MS</Major>
 		<Class>2020</Class>
 		<PledgeYear>Spring '18</PledgeYear>
@@ -123,28 +124,29 @@
 		<Position>Cyber Alchemist</Position>
 		<FirstName>Joshua</FirstName>
 		<LastName>Evans</LastName>
+		<Big>Dana Soika</Big>
 		<Major>Biotechonology and Molecular Bioscience</Major>
 		<Class>2020</Class>
 		<PledgeYear>Spring '18</PledgeYear>
 		<Email>webmasterbetasigma@gmail.com</Email>
 		<Bio>
-			I am a third year at RIT, but I’ve only been here for one year and probably won’t graduate for at least two more.  My area of interest is Genetic Engineering, and my life’s goal is to become a character in a Michael Crichton novel.  Next semester I am starting a research project on plant hormones with Dr. Coleman and Dr. Hudson.  I decided to pledge after I attended an info session for free pizza with no plans on actually joining, and it kind of got away from me.  I love the friendly, intellectual, but fun atmosphere of Alpha Chi Sigma and look forward to my first semester as a Brother.
+			I am a fourth year at RIT, but I’ve only been here for two years and probably won’t graduate for at least one more.  My area of interest is Genetic Engineering, and my life’s goal is to become a character in a Michael Crichton novel. I am involved in a research project on plant hormones with Dr. Coleman and Dr. Hudson, as well as a protein dynamics project with Dr. Babbit.  I decided to pledge after I attended an info session for free pizza with no plans on actually joining, and it kind of got away from me. I love the friendly, intellectual, but fun atmosphere of Alpha Chi Sigma and am enjoying my first semester as a Brother.
 		</Bio>
 	</Brother>
 	<Brother>
-		<Position>Active</Position>
+		<Position>Inactive</Position>
 		<FirstName>Megan</FirstName>
 		<LastName>Owens</LastName>
 		<Major>Chemical Engineering</Major>
-		<Class></Class>
+		<Class>2019</Class>
 		<PledgeYear>Fall '15</PledgeYear>
 		<Email>n/a</Email>
 		<Bio>
-			
+			I am a fifth year chemical engineering student who joined during my second year at RIT. After graduation, I will be going to grad school or taking on a full time job....to be decided! Alpha Chi Sigma has been where most of my time outside of classes has been. It has given me some of the best friends and best memories I could have at RIT! Apart from studying and the fraternity, I spend msot of my time with my dog Bailey or reading a good sci-fi book. 
 		</Bio>
 	</Brother>
 	<Brother>
-		<Position>Active</Position>
+		<Position>Inactive</Position>
 		<FirstName>John</FirstName>
 		<LastName>Ste. Marie</LastName>
 		<Major>Chemical Engineering</Major>
@@ -156,29 +158,37 @@
 		</Bio>
 	</Brother>
 	<Brother>
-		<Position>Active</Position>
+		<Position>Inctive</Position>
 		<FirstName>Joseph</FirstName>
 		<LastName>Hunt</LastName>
 		<Major>Chemical Engineering</Major>
-		<Class></Class>
+		<Class>2019</Class>
 		<PledgeYear>Spring '16</PledgeYear>
-		<Email>n/a</Email>
 		<Bio>
 			
 		</Bio>
 	</Brother>
 	<Brother>
-		<Position>Active</Position>
+		<Position>Inactive</Position>
 		<FirstName>Trent</FirstName>
 		<LastName>Mochel</LastName>
+		<Big>David Tolge</Big>
 		<Major>Chemistry</Major>
 		<Class></Class>
 		<PledgeYear>Fall '16</PledgeYear>
-		<Email>n/a</Email>
 		<Bio>
 			
 		</Bio>
 	</Brother>
+	<Brother>
+		<Position>Inactive</Position>
+		<FirstName>David</FirstName>
+		<LastName>Tolge</LastName>
+		<Big></Big>
+		<Major></Major>
+		<Class>Unknown?</Class>
+		<PledgeYear></PledgeYear>
+		<Bio></Bio>
 	<Brother>
 		<Position>Active</Position>
 		<FirstName>Matthew</FirstName>
@@ -186,9 +196,8 @@
 		<Major>Chemistry</Major>
 		<Class></Class>
 		<PledgeYear>Fall '16</PledgeYear>
-		<Email>n/a</Email>
 		<Bio>
-			I am from a small town in the southern tier called Greene, NY. This is my fourth and final year at RIT, and I’ve enjoyed my time immensely, especially with AXS. I plan on going to grad school next year, we’ll see how that fairs. I enjoy reading, solving puzzles, coming up with weird ciphers, watching all sorts of interesting shows &amp; anime, music, and theater. Outside of AXS, I’m in some other cool organizations like Computer Science House, which is always u to some weird antic. I’m thrilled for the District Conclave happening the upcoming semester, always great to meet more Bros!
+			I am from a small town in the southern tier called Greene, NY. This is my fourth and final year at RIT, and I’ve enjoyed my time immensely, especially with AXS. It's a constructive enviroment and like minded nerds striving for greatness in the field of science. I enjoy reading, solving puzzles, coming up with weird ciphers, watching all sorts of interesting shows; anime, music, and theater. Outside of AXS, I’m in some other cool organizations like Computer Science House, which is always up to some weird antics. After RIT I plan to continue my education at grad school with the aim of a PhD in physical chemistry.  
 
 		</Bio>
 	</Brother>
@@ -199,7 +208,6 @@
 		<Major>Chemical Engineering</Major>
 		<Class></Class>
 		<PledgeYear>Spring '17</PledgeYear>
-		<Email>n/a</Email>
 		<Bio>
 			I am a 3rd year Chemical Engineering major here at RIT. I hail from the town of Broadalbin, NY located in the southern portion of the Adirondack Mountains. I became a brother of Alpha Chi Sigma in the Spring of 2017. Here on campus I am a member of the 2018 Division II National Champion Roller Hockey Team. After RIT I plan to apply my studies to the brewing or metallurgy industries. Some of my hobbies include blacksmithing, hockey, running and playing squash.
 		</Bio>
@@ -208,12 +216,12 @@
 		<Position>Active</Position>
 		<FirstName>Hannah</FirstName>
 		<LastName>Sheldon</LastName>
+		<Big>Megan Owens</Big>
 		<Major>Biochemistry</Major>
 		<Class></Class>
 		<PledgeYear>Spring '17</PledgeYear>
-		<Email>n/a</Email>
 		<Bio>
-			I’m a third-year undergrad in the biochem program here with plans to minor in applied statistics and hopefully go to grad school for pharmacology. I did research on targeted molecular imaging agents for early cancer detection with Dr. Hans Schmitthenner over the summer, but a 23-credit course load has kept me out of the lab for most of the semester. I’ve been part of Alpha Chi Sigma for a year now (including time spent pledging) and I can honestly say that this is my favorite conglomerate of personalities I’ve ever encountered. My favorite part of being a brother is bonding with my littles, one of whom put together this event!
+			I’m a third(ish) year biochemistry major with aspirations to become a pharmacist after I pass orgo II. I pledged second semester of my freshman year and secretly have the best family tree. Variety is the spice of life.
 		</Bio>
 	</Brother>
 	<Brother>
@@ -223,19 +231,17 @@
 		<Major>Chemistry</Major>
 		<Class></Class>
 		<PledgeYear>Spring '17</PledgeYear>
-		<Email>n/a</Email>
 		<Bio>
-			
+			I am a 4th year chemistry major from Buffalo NY. I do not currently hold any position in the fraternity as my final year of undergraduate studies keeps me quite busy. I pledged Alpha Chi Sigma in the fall of 2017 and I have enjoyed my time immensley and am very glad I joined, the freinds and connections iv'e made through this organisation are something i will always be thankful for. Upon graduating in the fall with a minor in biology i hope to apply my trade in the industry doing organic synthesis before going back to school to obtain my masters.
 		</Bio>
 	</Brother>
 	<Brother>
-		<Position>Active</Position>
+		<Position>Inactive</Position>
 		<FirstName>Dana</FirstName>
 		<LastName>Soika</LastName>
 		<Major>Biotechnology and Molecular Bioscience</Major>
 		<Class></Class>
 		<PledgeYear>Fall '17</PledgeYear>
-		<Email>n/a</Email>
 		<Bio>
 			
 		</Bio>
@@ -247,9 +253,8 @@
 		<Major>Chemistry</Major>
 		<Class></Class>
 		<PledgeYear>Spring '18</PledgeYear>
-		<Email>n/a</Email>
 		<Bio>
-			
+			I am a fifth year undergraduate chemistry major who became a brother in spring of 2018. I am involved in a renewable polymer research lab with Dr. Miri.I hail from Westminster, MD. I have very much enjoyed my time here in the chapter, and am excited to see what it becomes. After RIT I plan on taking a break from school before pursing a graduate degree.
 		</Bio>
 	</Brother>
 	<Brother>
@@ -259,21 +264,19 @@
 		<Major>Chemistry</Major>
 		<Class></Class>
 		<PledgeYear>Spring '18</PledgeYear>
-		<Email>n/a</Email>
 		<Bio>
 			Tullio is a fourth year chemistry major working on minors in Mathematics and American Sign Language &amp; Deaf Culture Studies. Outside of pledging for Alpha Chi Sigma, he is very involved on campus; he is the treasurer of STAR (Space-Time Adventures at RIT), RIT’s Sci-fi Club as well as being the treasurer of the RIT Chapter of the American Chemical Society. He is currently between research groups, but in the past he has work with Dr. Matt Miri on fully renewable, plant based plastics, and Dr. Scott Williams on high energy radiation detectors. After RIT he plans to pursue a graduate degree and career in Astrochemistry.
 		</Bio>
 	</Brother>
 	<Brother>
-		<Position>Active</Position>
+		<Position>Inctive</Position>
 		<FirstName>Nathan</FirstName>
 		<LastName>Johnson</LastName>
 		<Major>Chemistry</Major>
 		<Class></Class>
 		<PledgeYear>Spring '18</PledgeYear>
-		<Email>n/a</Email>
 		<Bio>
-			Nathan is a third-year chemistry student with a minor in mathematics, and this is his second year at RIT. He enjoys working on Dr. Coleman’s chiral N-heterocyclic carbene project and is grateful to be surrounded by plenty of other people passionate about chemistry and related fields. He will be staying in Rochester this summer to work in the Coleman Lab, and plans to pursue a chemistry PhD after leaving RIT.
+			Nathan is a fourth-year chemistry student with a minor in mathematics, and this is his third year at RIT. He enjoys working on Dr. Coleman’s chiral N-heterocyclic carbene project and is grateful to be surrounded by plenty of other people passionate about chemistry and related fields. He plans to pursue a chemistry PhD after leaving RIT.
 		</Bio>
 	</Brother>
 	<Brother>
@@ -283,9 +286,8 @@
 		<Major>Chemical Engineering</Major>
 		<Class></Class>
 		<PledgeYear>Spring '18</PledgeYear>
-		<Email>n/a</Email>
 		<Bio>
-			Hi! I’m a raising third year student from Miami, Florida.  I’m currently working as a Co-op at Regeneron Pharmaceuticals in the Preclinical Manufacturing and Process Development department
+			Hi! I’m a rising third year student from Miami, Florida.  I’m currently working as a Co-op at Regeneron Pharmaceuticals in the Preclinical Manufacturing and Process Development department.
 		</Bio>
 	</Brother>
 	<Brother>
@@ -295,7 +297,6 @@
 		<Major>Software Engineering</Major>
 		<Class></Class>
 		<PledgeYear>Spring '18</PledgeYear>
-		<Email>n/a</Email>
 		<Bio>
 			I am a second-year software engineer. I really like chemistry and I am planning to do at least a minor in chemistry. I hope to one day find a job which involves both software engineering and chemistry.
 		</Bio>
@@ -307,7 +308,6 @@
 		<Major>Chemistry</Major>
 		<Class></Class>
 		<PledgeYear>Spring '18</PledgeYear>
-		<Email>n/a</Email>
 		<Bio>
 			I am a second-year chemistry major, and I am minoring in environmental studies. I come all the way from Olathe, Kansas, but after a year at RIT, I can't imagine going to school anywhere else. Chemistry and environmental efforts are definitely my life, but in my free time I enjoy collecting vinyl, watching and quoting movies, drinking coffee, and being outside.
 		</Bio>
@@ -317,11 +317,117 @@
 		<FirstName>Sean</FirstName>
 		<LastName>Su</LastName>
 		<Major>Chemical Engineering</Major>
-		<Class></Class>
+		<Class>7</Class>
 		<PledgeYear>Spring '18</PledgeYear>
-		<Email>n/a</Email>
 		<Bio>
-			I am from Mukilteo, Washington, 30 minutes from Seattle. This is my second year at RIT. My interests are tabletop wargames, good books, and cooking.
+			Resident mad scientist (2 of 6).
+		</Bio>
+	</Brother>
+	<Brother>
+		<Position>Active</Position>
+		<FirstName>Andrew</FirstName>
+		<LastName>Morris</LastName>
+		<Big>Aubrey Holland</Big>
+		<Major>2022</Major>
+		<Class>Chemical Engineering</Class>
+		<PledgeYear>Fall '18</PledgeYear>
+		<Bio></Bio>
+	</Brother>
+	<Brother>
+		<Position>Active</Position>
+		<FirstName>Rob</FirstName>
+		<LastName>Winter</LastName>
+		<Major></Major>
+		<Class></Class>
+		<PledgeYear>Fall '18</PledgeYear>
+		<Email>n/a</Email>
+		<Bio></Bio>
+	</Brother>
+	<Brother>
+		<Position>Active</Position>
+		<FirstName>Izzy</FirstName>
+		<LastName>Updike</LastName>
+		<Big>Matthew Bonney</Big>
+		<Major>Chemical Engineering</Major>
+		<Class>2021</Class>
+		<PledgeYear>Fall '18</PledgeYear>
+		<Bio></Bio>
+	</Brother>
+	<Brother>
+		<Position>Active</Position>
+		<FirstName>Victoria</FirstName>
+		<LastName>Adams</LastName>
+		<Big>Samantha Burger</Big>
+		<Major>2022</Major>
+		<Class>Chemical Engineering</Class>
+		<PledgeYear>Fall '18</PledgeYear>
+		<Bio></Bio>
+	</Brother>
+	<Brother>
+		<Position>Active</Position>
+		<FirstName>Micah</FirstName>
+		<LastName>Sidorick</LastName>
+		<Major>Chemical Engineering</Major>
+		<Class>2022</Class>
+		<PledgeYear>Fall '18</PledgeYear>
+		<Bio></Bio>
+	</Brother>
+	<Brother>
+		<Position>Active</Position>
+		<FirstName>Denise</FirstName>
+		<LastName>Grimon</LastName>
+		<Major>2021</Major>
+		<Class>Chemistry</Class>
+		<PledgeYear>Fall '18</PledgeYear>
+		<Bio></Bio>
+	</Brother>
+	<Brother>
+		<Position>Active</Position>
+		<FirstName>Lili</FirstName>
+		<LastName>Shelby</LastName>
+		<Big>Alexis Slenz</Big>
+		<Major>2021</Major>
+		<Class>Chemistry</Class>
+		<PledgeYear>Fall '18</PledgeYear>
+		<Bio></Bio>
+	</Brother>
+	<Brother>
+		<Position>Active</Position>
+		<FirstName>Colin</FirstName>
+		<LastName>Pierce</LastName>
+		<Big>Jordan Dejewski</Big>
+		<Major>2022</Major>
+		<Class>Chemical Engineering</Class>
+		<PledgeYear>Fall '18</PledgeYear>
+		<Bio></Bio>
+	</Brother>
+	<Brother>
+		<Position>Active</Position>
+		<FirstName>Jordan</FirstName>
+		<LastName>McNaughton</LastName>
+		<Major></Major>
+		<Class></Class>
+		<PledgeYear>Fall '18</PledgeYear>
+		<Bio></Bio>
+	</Brother>
+	<Brother>
+		<Position>Active</Position>
+		<FirstName>Jaser</FirstName>
+		<LastName>Iniguez</LastName>
+		<Big>Jared Ponzetti</Big>
+		<Major></Major>
+		<Class></Class>
+		<PledgeYear>Fall '18</PledgeYear>
+		<Bio></Bio>
+	</Brother>
+	<Brother>
+		<Position>Alum</Position>
+		<FirstName>Dan</FirstName>
+		<LastName>Saviola</LastName>
+		<Major>Chemistry</Major>
+		<Class></Class>
+		<PledgeYear></PledgeYear>
+		<Bio>
 		</Bio>
 	</Brother>
 </Brothers>

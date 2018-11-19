@@ -46,10 +46,22 @@
 				    if (this.readyState == 4 && this.status == 200) {
 				    	xml = this.responseXML;
 				    	filter = function(x){
-				    		return true;
+				    		return x.position != "Alum" && (x.has_bio() || x.has_portrait());
 				    	}
-				        load_brothers(xml, bros, filter);
-				        // sort_brothers();
+				    	sort_func = function(a, b){
+				    		var eboard = ['Master Alchemist', 'Vice-Master Alchemist', 'Master of Ceremonies', 'Treasurer'];
+				    		//todo: possibly add more sorting
+				    		if (b.has_position() != a.has_position()){
+				    			return (b.has_position() && !a.has_position());
+				    		}
+				    		if (b.has_position() && a.has_position() && b.position in eboard)  {
+				    			return (b.position in eboard) &&!(a.position in eboard);
+				    		}
+				    		if (b.has_portrait() != a.has_portrait()) {
+				    			return b.has_portrait() && !a.has_portrait();
+				    		}
+				    	}
+				        load_brothers(xml, bros, filter, sort_func);
 				        draw_brothers();
 				    }
 				};
