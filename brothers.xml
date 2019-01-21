@@ -1,44 +1,50 @@
 <Brothers>
 	<Brother>
-		<Position>Master Alchemist</Position>
-		<FirstName>Daniel</FirstName>
+		<Position>Alum</Position>
+		<FirstName>Dan</FirstName>
 		<LastName>Verrico</LastName>
+		<HasPic/>
+		<Big>Keith Borrino</Big>
 		<Major>Chemistry</Major>
 		<Class>2018</Class>
 		<PledgeYear>Fall '15</PledgeYear>
-		<Email>mabetasigma@gmail.com</Email>
 		<Bio>
-			cryingdan.jpg
+			My name is Dan and I’m a fifth-year Chemistry major from Massapequa, NY. I am currently doing research in Dr. Miri’s group where my main responsibility is to synthesize renewable step-growth polyesters and some of their corresponding monomers for polymerization. I also do much of the group’s solution-state NMR analysis. In my free time I love listening to music (I’m a bit of a metalhead), watching TV (That 70’s Show, It’s Always Sunny In Philadelphia, etc.), and playing various instruments (bass guitar, violin, cello, and occasionally, ukulele). In my three years in Alpha Chi Sigma I have held several positions (MA, VMA, MC, Social Chair) and have participated in three district conclaves.
 		</Bio>
 	</Brother>
 	<Brother>
 		<Position>Vice-Master Alchemist</Position>
 		<FirstName>William</FirstName>
 		<LastName>Charbonneau</LastName>
+		<HasPic/>
+		<Big>John Ste. Marie</Big>
 		<Major>Chemistry</Major>
 		<Class>2019</Class>
 		<PledgeYear>Spring '17</PledgeYear>
 		<Email>vmabetasigma@gmail.com</Email>
 		<Bio>
-			Will has a nice ponytail
+			 My name is William Charbonneau, I'm a fourth-year chemistry major from Hoosick Falls, NY. I am currently doing research in Dr. Miri's group, working with instrumentation used to determine physical properties to the polymers synthesized in the labratory. On my free time, I listen to alternative music, and play dungeons and dragons with my fiends and brothers from the Beta Sigma Chapter. I have held four positions, Historian, Social Chair, Treasurer, And the Vice Master Alchemist.
 		</Bio>
 	</Brother>
 	<Brother>
-		<Position>Master of Ceremonies</Position>
+		<Position>Inactive</Position>
 		<FirstName>Kevin</FirstName>
 		<LastName>Hernandez</LastName>
+		<HasPic/>
+		<Big>Mitchell Lambrecht</Big>
 		<Major>Chemistry</Major>
 		<Class>2019</Class>
 		<PledgeYear>Spring '16</PledgeYear>
-		<Email>mcbetasigma@gmail.com</Email>
 		<Bio>
-			Kev doesn't care. 
+			My name is Kevin, and I'm a fourth-year chemistry major from Derry, NH. I'm interested in pursing medicine after undergrad and have a strong interest in bleding medicine with my passion for organic chemistry. I have minors in psychology and international relations, and love incorporating these disciplines into my daily life. In my free time I like to perform music and I play several instruments including guitar, bass, percussion, woodwinds, and horns. I also enjoy playing video games, sometimes competitively. Since joining Alpha Chi Sigma, I have held several positions including MC, Reporter, Professional Chair, and Community Service Chair. I have also run several large events, including district conclave and liquid nitrogen ice cream at Imagine RIT.
 		</Bio>
 	</Brother>
 	<Brother>
 		<Position>Treasurer</Position>
 		<FirstName>Samantha</FirstName>
 		<LastName>Burger</LastName>
+		<HasPic/>
+		<Big>William Charbonneau</Big>
 		<Major>Biochemistry</Major>
 		<Class>2020</Class>
 		<PledgeYear>Fall '17</PledgeYear>
@@ -48,37 +54,43 @@
 		</Bio>
 	</Brother>
 	<Brother>
-		<Position>Reporter &amp; Social Chair</Position>
+		<Position>Master Alchemist</Position>
+		<Position>Advisory Chair</Position>
 		<FirstName>Alexis</FirstName>
-		<LastName>Slenz</LastName>
+		<LastName>Slentz</LastName>
+		<HasPic/>
+		<Big>Dennis Bogdan</Big>
 		<Major>Chemistry</Major>
 		<Class>2019</Class>
 		<PledgeYear>Spring '18</PledgeYear>
-		<Email>n/a</Email>
+		<Email>mabetasigma@gmail.com</Email>
 		<Bio>
-			Lexie is a fourth year chemistry student with a focus in environmental science and a minor in language science.  She is currently the Reporter and social committee chair of the Beta Sigma chapter.  Outside of AXS Lexie is very involved on RIT’s campus; she is a dancer and former E-Board member of the Vis Viva Dance Company, is a College if Science Student Ambassador, an eager volunteer for the School of Chemistry and Material Science, and has also been a lab teaching assistant and Orientation Leader in the past.  After RIT she hopes to pursue a geosciences career in glaciology and paleoclimatology.
+			Lexie is a fourth year chemistry student with a focus in environmental science and a minor in language science.  She has previously been the Reporter and social committee chair of the Beta Sigma chapter, and is now Master Alchemist and Advisory Chair.  Outside of AXS Lexie is very involved on RIT’s campus; she is a dancer and former E-Board member of the Vis Viva Dance Company, is a College if Science Student Ambassador, an eager volunteer for the School of Chemistry and Material Science, and has also been a lab teaching assistant and Orientation Leader in the past.  After RIT she hopes to pursue a geosciences career in glaciology and paleoclimatology.
 		</Bio>
 	</Brother>
 	<Brother>
 		<Position>Recorder</Position>
-		<FirstName>Eliot</FirstName>
+		<FirstName>Elliot</FirstName>
 		<LastName>Patnode</LastName>
+		<HasPic/>
+		<Big>James Sinka</Big>
 		<Major>Chemical Engineering</Major>
 		<Class>2019</Class>
 		<PledgeYear>Fall '15</PledgeYear>
-		<Email>n/a</Email>
+		<Email>recorderbetasigma@gmail.com</Email>
 		<Bio>
-			Eliot is devoid of all attributes due to an unfortunate curse.
+			Elliot is devoid of all attributes due to an unfortunate curse.
 		</Bio>
 	</Brother>
-		<Brother>
-		<Position>Professional Chair</Position>
+	<Brother>
+		<Position>Historian</Position>
 		<FirstName>Jordan</FirstName>
 		<LastName>Dejewski</LastName>
+		<HasPic/>
 		<Major>Biochemistry</Major>
+		<Big>Daniel Verrico</Big>
 		<Class></Class>
 		<PledgeYear>Spring '18</PledgeYear>
-		<Email>n/a</Email>
 		<Bio>
 			
 		</Bio>
@@ -87,6 +99,8 @@
 		<Position>Community Service Chair</Position>
 		<FirstName>Peyton</FirstName>
 		<LastName>Kunselman</LastName>
+		<HasPic/>
+		<Big>William Charbonneau</Big>
 		<Major>Chemistry</Major>
 		<Class>2020</Class>
 		<PledgeYear>Spring '18</PledgeYear>
@@ -96,9 +110,11 @@
 		</Bio>
 	</Brother>
 	<Brother>
-		<Position>Historian</Position>
+		<Position>Alum</Position>
 		<FirstName>Joseph</FirstName>
 		<LastName>Discua</LastName>
+		<HasPic/>
+		<Big>Trent Mochel</Big>
 		<Major>Biochemistry</Major>
 		<Class>2019</Class>
 		<PledgeYear>Spring '18</PledgeYear>
@@ -108,22 +124,24 @@
 		</Bio>
 	</Brother>
 	<Brother>
-		<Position>Public Relations Chair</Position>
+		<Position>Active</Position>
 		<FirstName>Hannah</FirstName>
 		<LastName>Thompson</LastName>
+		<HasPic/>
 		<Big>Kevin Hernandez</Big>
 		<Major>Biomedical Engineering BS and Science Technology and Public Policy MS</Major>
 		<Class>2020</Class>
 		<PledgeYear>Spring '18</PledgeYear>
 		<Email>n/a</Email>
 		<Bio>
-			My name is Hannah Thompson and I’m a rising 4th year studying Biomedical Engineering. I am part of a BS/MS program working towards a Masters in Science, Technology and Public Policy with an environmental focus. I hope to combine my technical knowledge with environmental awareness and consideration in my future career. I pledged the fraternity during the Spring of 2018. I’ve recently become the Public Relations Chair which I’m extremely excited about. I want to work to increase our presence on campus and develop more direct ways to connect with the community and potential members.
+			My name is Hannah Thompson and I’m a rising 4th year studying Biomedical Engineering. I am part of a BS/MS program working towards a Masters in Science, Technology and Public Policy with an environmental focus. I hope to combine my technical knowledge with environmental awareness and consideration in my future career. I pledged the fraternity during the Spring of 2018. I want to work to increase our presence on campus and develop more direct ways to connect with the community and potential members.
 		</Bio>
 	</Brother>
 	<Brother>
 		<Position>Cyber Alchemist</Position>
 		<FirstName>Joshua</FirstName>
 		<LastName>Evans</LastName>
+		<HasPic/>
 		<Big>Dana Soika</Big>
 		<Major>Biotechonology and Molecular Bioscience</Major>
 		<Class>2020</Class>
@@ -137,10 +155,10 @@
 		<Position>Inactive</Position>
 		<FirstName>Megan</FirstName>
 		<LastName>Owens</LastName>
+		<Big>Tyler Hess</Big>
 		<Major>Chemical Engineering</Major>
 		<Class>2019</Class>
 		<PledgeYear>Fall '15</PledgeYear>
-		<Email>n/a</Email>
 		<Bio>
 			I am a fifth year chemical engineering student who joined during my second year at RIT. After graduation, I will be going to grad school or taking on a full time job....to be decided! Alpha Chi Sigma has been where most of my time outside of classes has been. It has given me some of the best friends and best memories I could have at RIT! Apart from studying and the fraternity, I spend msot of my time with my dog Bailey or reading a good sci-fi book. 
 		</Bio>
@@ -152,15 +170,16 @@
 		<Major>Chemical Engineering</Major>
 		<Class></Class>
 		<PledgeYear>Spring '16</PledgeYear>
-		<Email>n/a</Email>
 		<Bio>
 			
 		</Bio>
 	</Brother>
 	<Brother>
-		<Position>Inctive</Position>
+		<Position>Inactive</Position>
 		<FirstName>Joseph</FirstName>
 		<LastName>Hunt</LastName>
+		<HasPic/>
+		<Big>Keith Borrino</Big>
 		<Major>Chemical Engineering</Major>
 		<Class>2019</Class>
 		<PledgeYear>Spring '16</PledgeYear>
@@ -181,18 +200,21 @@
 		</Bio>
 	</Brother>
 	<Brother>
-		<Position>Inactive</Position>
+		<Position>Alum</Position>
 		<FirstName>David</FirstName>
 		<LastName>Tolge</LastName>
-		<Big></Big>
+		<Big>Christian Dohring</Big>
 		<Major></Major>
 		<Class>Unknown?</Class>
 		<PledgeYear></PledgeYear>
 		<Bio></Bio>
+	</Brother>
 	<Brother>
 		<Position>Active</Position>
 		<FirstName>Matthew</FirstName>
 		<LastName>Bonney</LastName>
+		<HasPic/>
+		<Big>Kevin Hernandez</Big>
 		<Major>Chemistry</Major>
 		<Class></Class>
 		<PledgeYear>Fall '16</PledgeYear>
@@ -205,6 +227,8 @@
 		<Position>Active</Position>
 		<FirstName>Dennis</FirstName>
 		<LastName>Bogdan</LastName>
+		<HasPic/>
+		<Big>Elliot Patnode</Big>
 		<Major>Chemical Engineering</Major>
 		<Class></Class>
 		<PledgeYear>Spring '17</PledgeYear>
@@ -216,6 +240,7 @@
 		<Position>Active</Position>
 		<FirstName>Hannah</FirstName>
 		<LastName>Sheldon</LastName>
+		<HasPic/>
 		<Big>Megan Owens</Big>
 		<Major>Biochemistry</Major>
 		<Class></Class>
@@ -225,9 +250,11 @@
 		</Bio>
 	</Brother>
 	<Brother>
-		<Position>Active</Position>
+		<Position>Professional Chair</Position>
 		<FirstName>Luke</FirstName>
 		<LastName>Lanza</LastName>
+		<HasPic/>
+		<Big>Kyle Tezanos</Big>
 		<Major>Chemistry</Major>
 		<Class></Class>
 		<PledgeYear>Spring '17</PledgeYear>
@@ -239,6 +266,8 @@
 		<Position>Inactive</Position>
 		<FirstName>Dana</FirstName>
 		<LastName>Soika</LastName>
+		<HasPic/>
+		<Big>Trent Mochel</Big>
 		<Major>Biotechnology and Molecular Bioscience</Major>
 		<Class></Class>
 		<PledgeYear>Fall '17</PledgeYear>
@@ -247,9 +276,11 @@
 		</Bio>
 	</Brother>
 	<Brother>
-		<Position>Active</Position>
+		<Position>Alum</Position>
 		<FirstName>Alexander</FirstName>
 		<LastName>North</LastName>
+		<HasPic/>
+		<Big>Metthew Bonney</Big>
 		<Major>Chemistry</Major>
 		<Class></Class>
 		<PledgeYear>Spring '18</PledgeYear>
@@ -258,20 +289,25 @@
 		</Bio>
 	</Brother>
 	<Brother>
-		<Position>Active</Position>
+		<Position>Master of Ceremonies</Position>
 		<FirstName>Tullio</FirstName>
 		<LastName>Geraci</LastName>
+		<HasPic/>
+		<Big>Hannah Sheldon</Big>
 		<Major>Chemistry</Major>
 		<Class></Class>
 		<PledgeYear>Spring '18</PledgeYear>
+		<Email>mcbetasigma@gmail.com</Email>
 		<Bio>
 			Tullio is a fourth year chemistry major working on minors in Mathematics and American Sign Language &amp; Deaf Culture Studies. Outside of pledging for Alpha Chi Sigma, he is very involved on campus; he is the treasurer of STAR (Space-Time Adventures at RIT), RIT’s Sci-fi Club as well as being the treasurer of the RIT Chapter of the American Chemical Society. He is currently between research groups, but in the past he has work with Dr. Matt Miri on fully renewable, plant based plastics, and Dr. Scott Williams on high energy radiation detectors. After RIT he plans to pursue a graduate degree and career in Astrochemistry.
 		</Bio>
 	</Brother>
 	<Brother>
-		<Position>Inctive</Position>
+		<Position>Inactive</Position>
 		<FirstName>Nathan</FirstName>
 		<LastName>Johnson</LastName>
+		<HasPic/>
+		<Big>William Charbonneau</Big>
 		<Major>Chemistry</Major>
 		<Class></Class>
 		<PledgeYear>Spring '18</PledgeYear>
@@ -283,6 +319,8 @@
 		<Position>Inactive</Position>
 		<FirstName>Hira</FirstName>
 		<LastName>Abid</LastName>
+		<HasPic/>
+		<Big>Trent Mochel</Big>
 		<Major>Chemical Engineering</Major>
 		<Class></Class>
 		<PledgeYear>Spring '18</PledgeYear>
@@ -291,9 +329,11 @@
 		</Bio>
 	</Brother>
 	<Brother>
-		<Position>Active</Position>
+		<Position>Reporter</Position>
 		<FirstName>Jared</FirstName>
 		<LastName>Ponzetti</LastName>
+		<HasPic/>
+		<Big>Daniel Verrico</Big>
 		<Major>Software Engineering</Major>
 		<Class></Class>
 		<PledgeYear>Spring '18</PledgeYear>
@@ -302,20 +342,24 @@
 		</Bio>
 	</Brother>
 	<Brother>
-		<Position>Active</Position>
+		<Position>Public Relations</Position>
 		<FirstName>Aubrey</FirstName>
 		<LastName>Holland</LastName>
+		<HasPic/>
+		<Big>Alexis LaSalle</Big>
 		<Major>Chemistry</Major>
 		<Class></Class>
 		<PledgeYear>Spring '18</PledgeYear>
 		<Bio>
-			I am a second-year chemistry major, and I am minoring in environmental studies. I come all the way from Olathe, Kansas, but after a year at RIT, I can't imagine going to school anywhere else. Chemistry and environmental efforts are definitely my life, but in my free time I enjoy collecting vinyl, watching and quoting movies, drinking coffee, and being outside.
+			My name is Aubrey Holland, and I am the Public Relations Chair for the Beta Sigma chapter. I am a second year chemistry major with minors in environmental studies and legal studies. I am currently shadowing in Dr. Cody's organic chemistry lab as well as doing research for RIT's environmental studies department and the city of Rochester. I joined Alpha Chi Sigma during the spring semester of 2018 to make professional connections and meet people that were also passionate about chemistry. 
 		</Bio>
 	</Brother>
 	<Brother>
 		<Position>Active</Position>
 		<FirstName>Sean</FirstName>
 		<LastName>Su</LastName>
+		<HasPic/>
+		<Big>Kevin Hernandez</Big>
 		<Major>Chemical Engineering</Major>
 		<Class>7</Class>
 		<PledgeYear>Spring '18</PledgeYear>
@@ -324,110 +368,1243 @@
 		</Bio>
 	</Brother>
 	<Brother>
-		<Position>Active</Position>
+		<Position>NIB</Position>
 		<FirstName>Andrew</FirstName>
 		<LastName>Morris</LastName>
+		<HasPic/>
 		<Big>Aubrey Holland</Big>
 		<Major>2022</Major>
 		<Class>Chemical Engineering</Class>
 		<PledgeYear>Fall '18</PledgeYear>
-		<Bio></Bio>
+		<Bio>
+			my name is Andrew Morris, and I am a second year chemical engineering major. I joined Alpha Chi Sigma in the Fall of 2018 to make professional connections and meet like minded people who love chemistry. 
+		</Bio>
 	</Brother>
 	<Brother>
-		<Position>Active</Position>
-		<FirstName>Rob</FirstName>
+		<Position>NIB</Position>
+		<FirstName>Robert</FirstName>
 		<LastName>Winter</LastName>
+		<HasPic/>
+		<Big>Alexander North</Big>
 		<Major></Major>
 		<Class></Class>
 		<PledgeYear>Fall '18</PledgeYear>
 		<Email>n/a</Email>
-		<Bio></Bio>
+		<Bio>
+			Robert is a Fourth year BS/MS candidate in chemisry from Rochester, NY with a minor in Criminal Justice. Robert is looking forward to being a part of the Alpha Chi Sigma fraternaty and spreading his passion for chemistry.
+		</Bio>
 	</Brother>
 	<Brother>
-		<Position>Active</Position>
+		<Position>NIB</Position>
 		<FirstName>Izzy</FirstName>
 		<LastName>Updike</LastName>
+		<HasPic/>
 		<Big>Matthew Bonney</Big>
 		<Major>Chemical Engineering</Major>
 		<Class>2021</Class>
 		<PledgeYear>Fall '18</PledgeYear>
-		<Bio></Bio>
+		<Bio>
+			I am a jack of all trades, master of none, from deep in the heart of Pennsyltucky. Much like time and death, my major is an illusion but my love for chemistry is limited only by Dr. Jeffrey "Danger" Mills (Phd, MD, LLC, Inc. &amp; CO.).
+		</Bio>
 	</Brother>
 	<Brother>
-		<Position>Active</Position>
+		<Position>NIB</Position>
 		<FirstName>Victoria</FirstName>
 		<LastName>Adams</LastName>
+		<HasPic/>
 		<Big>Samantha Burger</Big>
 		<Major>2022</Major>
 		<Class>Chemical Engineering</Class>
-		<PledgeYear>Fall '18</PledgeYear>
-		<Bio></Bio>
+		<PledgeYear>Fall '18</PledgeYear>RIT
+		<Bio>
+			I am a second year Chemical Engineer and I am from Kingston, NY. I hope to make my mark here in AXS and RIT.
+		</Bio>
 	</Brother>
 	<Brother>
-		<Position>Active</Position>
+		<Position>NIB</Position>
 		<FirstName>Micah</FirstName>
 		<LastName>Sidorick</LastName>
+		<HasPic/>
+		<Big>Dennis Bogdan</Big>
 		<Major>Chemical Engineering</Major>
 		<Class>2022</Class>
 		<PledgeYear>Fall '18</PledgeYear>
-		<Bio></Bio>
+		<Bio>			
+			I am a second year chemical engineering student, from Pennsylvania. I snowboard when possible and am also learning Russian.
+		</Bio>
 	</Brother>
 	<Brother>
-		<Position>Active</Position>
+		<Position>NIB</Position>
 		<FirstName>Denise</FirstName>
 		<LastName>Grimon</LastName>
+		<HasPic/>
+		<Big>Aubrey Holland</Big>
 		<Major>2021</Major>
 		<Class>Chemistry</Class>
 		<PledgeYear>Fall '18</PledgeYear>
 		<Bio></Bio>
 	</Brother>
 	<Brother>
-		<Position>Active</Position>
+		<Position>NIB</Position>
 		<FirstName>Lili</FirstName>
 		<LastName>Shelby</LastName>
-		<Big>Alexis Slenz</Big>
+		<HasPic/>
+		<Big>Alexis Slentz</Big>
 		<Major>2021</Major>
 		<Class>Chemistry</Class>
 		<PledgeYear>Fall '18</PledgeYear>
-		<Bio></Bio>
+		<Bio>
+			I am a second year Chemistry major. I am from Albuquerque, New Mexico.
+		</Bio>
 	</Brother>
 	<Brother>
-		<Position>Active</Position>
+		<Position>NIB</Position>
 		<FirstName>Colin</FirstName>
 		<LastName>Pierce</LastName>
+		<HasPic/>
 		<Big>Jordan Dejewski</Big>
 		<Major>2022</Major>
 		<Class>Chemical Engineering</Class>
 		<PledgeYear>Fall '18</PledgeYear>
-		<Bio></Bio>
+		<Bio>
+			I am a second year Chemical Engineering major from Red Hook NY. 
+		</Bio>
 	</Brother>
 	<Brother>
-		<Position>Active</Position>
+		<Position>NIB</Position>
 		<FirstName>Jordan</FirstName>
 		<LastName>McNaughton</LastName>
-		<Major></Major>
-		<Class></Class>
+		<HasPic/>
+		<Big>Elliot Patnode</Big>
+		<Major>Biochemistry</Major>
+		<Class>2021</Class>
 		<PledgeYear>Fall '18</PledgeYear>
-		<Bio></Bio>
+		<Bio>
+			I am secound year BioChemist from Webster, NY. Currently working with Organic Systhesis reasearch.
+		</Bio>
 	</Brother>
 	<Brother>
-		<Position>Active</Position>
+		<Position>NIB</Position>
 		<FirstName>Jaser</FirstName>
 		<LastName>Iniguez</LastName>
+		<HasPic/>
 		<Big>Jared Ponzetti</Big>
-		<Major></Major>
-		<Class></Class>
+		<Major>Chemical Engineering</Major>
+		<Class>2022</Class>
 		<PledgeYear>Fall '18</PledgeYear>
-		<Bio></Bio>
+		<Bio>
+			
+		</Bio>
 	</Brother>
+	<!-- *********************************** Alumni only below this point ********************************* -->
 	<Brother>
 		<Position>Alum</Position>
 		<FirstName>Dan</FirstName>
 		<LastName>Saviola</LastName>
+		<Big>Katelyn Olney</Big>
 		<Major>Chemistry</Major>
 		<Class></Class>
 		<PledgeYear></PledgeYear>
 		<Bio>
+			"I'm still here?"
 		</Bio>
+	</Brother>
+	<Brother>
+		<Position>Alum</Position>
+		<FirstName>Katelyn</FirstName>
+		<LastName>Olney</LastName>
+		<Big>Sarah Swenson</Big>
+		<Class></Class>
+		<PledgeYear>Unknown</PledgeYear>
+	</Brother>
+	<Brother>
+		<Position>Alum</Position>
+		<FirstName>Sarah</FirstName>
+		<LastName>Swenson</LastName>
+		<Big>Ashley Willsey</Big>
+		<Class></Class>
+		<PledgeYear>Unknown</PledgeYear>
+	</Brother>
+	<Brother>
+		<Position>Alum</Position>
+		<FirstName>Jade</FirstName>
+		<LastName>Harley</LastName>
+		<Big>Jeffrey Pyka</Big>
+		<Class>2012</Class>
+		<PledgeYear>Unknown</PledgeYear>
+	</Brother>
+	<Brother>
+		<Position>Alum</Position>
+		<FirstName>Kevin</FirstName>
+		<LastName>Kirk</LastName>
+		<Big>Jeffrey Pyka</Big>
+		<Class>2013</Class>
+		<PledgeYear>Unknown</PledgeYear>
+	</Brother>
+	<Brother>
+		<Position>Alum</Position>
+		<FirstName>Jeffrey</FirstName>
+		<LastName>Pyka</LastName>
+		<Big>Sarah Swenson</Big>
+		<Class>2011</Class>
+		<PledgeYear>Unknown</PledgeYear>
+	</Brother>
+	<Brother>
+		<Position>Alum</Position>
+		<FirstName>Rebecca</FirstName>
+		<LastName>Nolletti</LastName>
+		<Big>Katelyn Olney</Big>
+		<Class>2012</Class>
+		<PledgeYear>Unknown</PledgeYear>
+	</Brother>
+	<Brother>
+		<Position>Alum</Position>
+		<FirstName>Christian</FirstName>
+		<LastName>Dohnring</LastName>
+		<Big>Ishita Jalan</Big>
+		<Class>2015</Class>
+		<PledgeYear>Unknown</PledgeYear>
+	</Brother>
+	<Brother>
+		<Position>Alum</Position>
+		<FirstName>Ishita</FirstName>
+		<LastName>Jalan</LastName>
+		<Big>Stephanie Beach</Big>
+		<Class>2014</Class>
+		<PledgeYear>Unknown</PledgeYear>
+	</Brother>
+	<Brother>
+		<Position>Alum</Position>
+		<FirstName>Ryan</FirstName>
+		<LastName>Carrazzone</LastName>
+		<Big>Ishita Jalan</Big>
+		<Class>2015</Class>
+		<PledgeYear>Unknown</PledgeYear>
+	</Brother>
+	<Brother>
+		<Position>Alum</Position>
+		<FirstName>James</FirstName>
+		<LastName>Sinka</LastName>
+		<Big>Ishita Jalan</Big>
+		<Class></Class>
+		<PledgeYear>Unknown</PledgeYear>
+	</Brother>
+	<Brother>
+		<Position>Alum</Position>
+		<FirstName>Kris</FirstName>
+		<LastName>Wong</LastName>
+		<Big>Stephanie Beach</Big>
+		<Class>2013</Class>
+		<PledgeYear>Unknown</PledgeYear>
+	</Brother>
+	<Brother>
+		<Position>Alum</Position>
+		<FirstName>Nicholas</FirstName>
+		<LastName>Hills</LastName>
+		<Big>Devonna Leslie</Big>
+		<Class></Class>
+		<PledgeYear>Unknown</PledgeYear>
+	</Brother>
+	<Brother>
+		<Position>Alum</Position>
+		<FirstName>Kyle</FirstName>
+		<LastName>Tezanos</LastName>
+		<Big>Daniel Verrico</Big>
+		<Class></Class>
+		<PledgeYear>Unknown</PledgeYear>
+	</Brother>
+	<Brother>
+		<Position>Alum</Position>
+		<FirstName>Keith</FirstName>
+		<LastName>Borrino</LastName>
+		<Big>Brandon Cona</Big>
+		<Class>2015</Class>
+		<PledgeYear>Unknown</PledgeYear>
+	</Brother>
+	<Brother>
+		<Position>Alum</Position>
+		<FirstName>Brandon</FirstName>
+		<LastName>Cona</LastName>
+		<Big>Sarah Swenson</Big>
+		<Class>2013</Class>
+		<PledgeYear>Unknown</PledgeYear>
+	</Brother>
+	<Brother>
+		<Position>Alum</Position>
+		<FirstName>Tyler</FirstName>
+		<LastName>Hess</LastName>
+		<Big>Dylan Evans</Big>
+		<Class>2015</Class>
+		<PledgeYear>Unknown</PledgeYear>
+	</Brother>
+	<Brother>
+		<Position>Alum</Position>
+		<FirstName>Deschana</FirstName>
+		<LastName>Washington</LastName>
+		<Big>Dylan Evans</Big>
+		<Class>2013</Class>
+		<PledgeYear>Unknown</PledgeYear>
+	</Brother>
+	<Brother>
+		<Position>Alum</Position>
+		<FirstName>Dylan</FirstName>
+		<LastName>Evans</LastName>
+		<Big>David Olney</Big>
+		<Class>2012</Class>
+		<PledgeYear>Unknown</PledgeYear>
+	</Brother>
+	<Brother>
+		<Position>Alum</Position>
+		<FirstName>Reginald</FirstName>
+		<LastName>Rogers</LastName>
+		<Suffix>Jr.</Suffix>
+		<Big>Anthony Cannella</Big>
+		<Class>2014</Class>
+		<PledgeYear>Unknown</PledgeYear>
+	</Brother>
+	<Brother>
+		<Position>Alum</Position>
+		<FirstName>Anthony</FirstName>
+		<LastName>Cannella</LastName>
+		<Big>Anthony Mangan</Big>
+		<Class>2012</Class>
+		<PledgeYear>Unknown</PledgeYear>
+	</Brother>
+	<Brother>
+		<Position>Alum</Position>
+		<FirstName>Anthony</FirstName>
+		<LastName>Mangan</LastName>
+		<Big>David Olney</Big>
+		<Class>2012</Class>
+		<PledgeYear>Unknown</PledgeYear>
+	</Brother>
+	<Brother>
+		<Position>Alum</Position>
+		<FirstName>David</FirstName>
+		<LastName>Olney</LastName>
+		<Big>Irma Prosser</Big>
+		<Class>2010</Class>
+		<PledgeYear>Unknown</PledgeYear>
+	</Brother>
+	<Brother>
+		<Position>Alum</Position>
+		<FirstName>Tumininu</FirstName>
+		<LastName>Faniyan</LastName>
+		<Big>Nnamdi Akporji</Big>
+		<Class>2015</Class>
+		<PledgeYear>Unknown</PledgeYear>
+	</Brother>
+	<Brother>
+		<Position>Alum</Position>
+		<FirstName>Nnamdi</FirstName>
+		<LastName>Akporji</LastName>
+		<Big>Caitlin Donovan</Big>
+		<Class>2015</Class>
+		<PledgeYear>Unknown</PledgeYear>
+	</Brother>
+	<Brother>
+		<Position>Alum</Position>
+		<FirstName>Dustin</FirstName>
+		<LastName>Schroeder</LastName>
+		<Big>Caitlin Donovan</Big>
+		<Class>2014</Class>
+		<PledgeYear>Unknown</PledgeYear>
+	</Brother>
+	<Brother>
+		<Position>Alum</Position>
+		<FirstName>Zachary</FirstName>
+		<LastName>Protich</LastName>
+		<Big>Caitlin Donovan</Big>
+		<Class>2015</Class>
+		<PledgeYear>Unknown</PledgeYear>
+	</Brother>
+	<Brother>
+		<Position>Alum</Position>
+		<FirstName>Darina</FirstName>
+		<LastName>Vassileva</LastName>
+		<Big>Caitlin Donovan</Big>
+		<Class>2015</Class>
+		<PledgeYear>Unknown</PledgeYear>
+	</Brother>
+	<Brother>
+		<Position>Alum</Position>
+		<FirstName>Marina</FirstName>
+		<LastName>Koroleva</LastName>
+		<Big>Josh Beres</Big>
+		<Class>2014</Class>
+		<PledgeYear>Unknown</PledgeYear>
+	</Brother>
+	<Brother>
+		<Position>Alum</Position>
+		<FirstName>Josh</FirstName>
+		<LastName>Beres</LastName>
+		<Big>Moriah Buckley-Jamison</Big>
+		<Class>2012</Class>
+		<PledgeYear>Unknown</PledgeYear>
+	</Brother>
+	<Brother>
+		<Position>Alum</Position>
+		<FirstName>Moriah</FirstName>
+		<LastName>Buckley-Jamison</LastName>
+		<Big>Shay DiLiscia</Big>
+		<Class>2011</Class>
+		<PledgeYear>Unknown</PledgeYear>
+	</Brother>
+	<Brother>
+		<Position>Alum</Position>
+		<FirstName>Shay</FirstName>
+		<LastName>DiLiscia</LastName>
+		<Big>Brenda Mastrangelo</Big>
+		<Class>2009</Class>
+		<PledgeYear>Unknown</PledgeYear>
+	</Brother>
+	<Brother>
+		<Position>Alum</Position>
+		<FirstName>Brenda</FirstName>
+		<LastName>Mastrangelo</LastName>
+		<Big>Laura Filkins</Big>
+		<Class>2009</Class>
+		<PledgeYear>Unknown</PledgeYear>
+	</Brother>
+	<Brother>
+		<Position>Alum</Position>
+		<FirstName>Courtney</FirstName>
+		<LastName>Stanford</LastName>
+		<Big>Amanda Magee</Big>
+		<Class>2009</Class>
+		<PledgeYear>Unknown</PledgeYear>
+	</Brother>
+	<Brother>
+		<Position>Alum</Position>
+		<FirstName>Amanda</FirstName>
+		<LastName>Magee</LastName>
+		<Big>Laura Filkins</Big>
+		<Class>2008</Class>
+		<PledgeYear>Unknown</PledgeYear>
+	</Brother>
+	<Brother>
+		<Position>Alum</Position>
+		<FirstName>Laura</FirstName>
+		<LastName>Fillkins</LastName>
+		<Big>Kristina Griffith</Big>
+		<Class>2008</Class>
+		<PledgeYear>Unknown</PledgeYear>
+	</Brother>
+	<Brother>
+		<Position>Alum</Position>
+		<FirstName>Sean</FirstName>
+		<LastName>Culver</LastName>
+		<Big>Kristina Griffith</Big>
+		<Class>2008</Class>
+		<PledgeYear>Unknown</PledgeYear>
+	</Brother>
+	<Brother>
+		<Position>Alum</Position>
+		<FirstName>Kristina</FirstName>
+		<LastName>Griffith</LastName>
+		<Big>Elyse Smith</Big>
+		<Class>2007</Class>
+		<PledgeYear>Unknown</PledgeYear>
+	</Brother>
+	<Brother>
+		<Position>Alum</Position>
+		<FirstName>Sean</FirstName>
+		<LastName>Nunez</LastName>
+		<Big>Elyse Smith</Big>
+		<Class>????</Class>
+		<PledgeYear>Unknown</PledgeYear>
+	</Brother>
+	<Brother>
+		<Position>Alum</Position>
+		<FirstName>Elyse</FirstName>
+		<LastName>Smith</LastName>
+		<Big>Miatta Nyanforh</Big>
+		<Class>2006</Class>
+		<PledgeYear>Unknown</PledgeYear>
+	</Brother>
+	<Brother>
+		<Position>Alum</Position>
+		<FirstName>Miatta</FirstName>
+		<LastName>Nyanforh</LastName>
+		<Big>Matthew Gawryla</Big>
+		<Class>2004</Class>
+		<PledgeYear>Unknown</PledgeYear>
+	</Brother>
+	<Brother>
+		<Position>Alum</Position>
+		<FirstName>Kyle</FirstName>
+		<LastName>Skottke</LastName>
+		<Big>Matthew Gawryla</Big>
+		<Class>2005</Class>
+		<PledgeYear>Unknown</PledgeYear>
+	</Brother>
+	<Brother>
+		<Position>Alum</Position>
+		<FirstName>Alois</FirstName>
+		<LastName>Romanowski</LastName>
+		<Big>Matthew Gawryla</Big>
+		<Class>2005</Class>
+		<PledgeYear>Unknown</PledgeYear>
+	</Brother>
+	<Brother>
+		<Position>Alum</Position>
+		<FirstName>Matthew</FirstName>
+		<LastName>Gawryla</LastName>
+		<Big>Russell Rohring</Big>
+		<Class>2002</Class>
+		<PledgeYear>Unknown</PledgeYear>
+	</Brother>
+	<Brother>
+		<Position>Alum</Position>
+		<FirstName>Russell</FirstName>
+		<LastName>Rohring</LastName>
+		<Big>Allen Chong</Big>
+		<Class>1997</Class>
+		<PledgeYear>Unknown</PledgeYear>
+	</Brother>
+	<Brother>
+		<Position>Alum</Position>
+		<FirstName>Suzanne</FirstName>
+		<LastName>Atwell-Keisher</LastName>
+		<Big>Allen Chong</Big>
+		<Class>2000</Class>
+		<PledgeYear>Unknown</PledgeYear>
+	</Brother>
+	<Brother>
+		<Position>Alum</Position>
+		<FirstName>Akshav</FirstName>
+		<LastName>Charegonkar</LastName>
+		<Big>Mary Ed Kenney</Big>
+		<Class>2007</Class>
+		<PledgeYear>Unknown</PledgeYear>
+	</Brother>
+	<Brother>
+		<Position>Alum</Position>
+		<FirstName>Luciana</FirstName>
+		<LastName>Oliveira</LastName>
+		<Big>Mary Ed Kenney</Big>
+		<Class>2007</Class>
+		<PledgeYear>Unknown</PledgeYear>
+	</Brother>
+	<Brother>
+		<Position>Alum</Position>
+		<FirstName>Mary Ed</FirstName>
+		<LastName>Kenney</LastName>
+		<Big>Patrick Kenney</Big>
+		<Class>2005</Class>
+		<PledgeYear>Unknown</PledgeYear>
+	</Brother>
+	<Brother>
+		<Position>Alum</Position>
+		<FirstName>Patrick</FirstName>
+		<LastName>Kenney</LastName>
+		<Big>Elizabeth Meyer</Big>
+		<Class>2002</Class>
+		<PledgeYear>Unknown</PledgeYear>
+	</Brother>
+	<Brother>
+		<Position>Alum</Position>
+		<FirstName>Elizabeth</FirstName>
+		<LastName>Meyer</LastName>
+		<Big>Allen Chong</Big>
+		<Class>2002</Class>
+		<PledgeYear>Unknown</PledgeYear>
+	</Brother>
+	<Brother>
+		<Position>Alum</Position>
+		<FirstName>Allen</FirstName>
+		<LastName>Chong</LastName>
+		<Big>Robert Beiber</Big>
+		<Class>1997</Class>
+		<PledgeYear>Unknown</PledgeYear>
+	</Brother>
+	<Brother>
+		<Position>Alum</Position>
+		<FirstName>Shakira</FirstName>
+		<LastName>Addison</LastName>
+		<Big>Robert Beiber</Big>
+		<Class>1997</Class>
+		<PledgeYear>Unknown</PledgeYear>
+	</Brother>
+	<Brother>
+		<Position>Alum</Position>
+		<FirstName>Robert</FirstName>
+		<LastName>Beiber</LastName>
+		<Big>Glenn Robinson</Big>
+		<Class>1993</Class>
+		<PledgeYear>Unknown</PledgeYear>
+	</Brother>
+	<Brother>
+		<Position>Alum</Position>
+		<FirstName>Jason</FirstName>
+		<LastName>Tapley</LastName>
+		<Big>Ryan Susa</Big>
+		<Class>2005</Class>
+		<PledgeYear>Unknown</PledgeYear>
+	</Brother>
+	<Brother>
+		<Position>Alum</Position>
+		<FirstName>Ryan</FirstName>
+		<LastName>Susa</LastName>
+		<Big>Gregory Wright</Big>
+		<Class>2002</Class>
+		<PledgeYear>Unknown</PledgeYear>
+	</Brother>
+	<Brother>
+		<Position>Alum</Position>
+		<FirstName>Michael</FirstName>
+		<LastName>Caution</LastName>
+		<Big>Leila Madresehee</Big>
+		<Class>2005</Class>
+		<PledgeYear>Unknown</PledgeYear>
+	</Brother>
+	<Brother>
+		<Position>Alum</Position>
+		<FirstName>Leila</FirstName>
+		<LastName>Madresehee</LastName>
+		<Big>Gregory Wright</Big>
+		<Class>2003</Class>
+		<PledgeYear>Unknown</PledgeYear>
+	</Brother>
+	<Brother>
+		<Position>Alum</Position>
+		<FirstName>Gregory</FirstName>
+		<LastName>Wright</LastName>
+		<Big>Glenn Robinson</Big>
+		<Class>2002</Class>
+		<PledgeYear>Unknown</PledgeYear>
+	</Brother>
+	<Brother>
+		<Position>Alum</Position>
+		<FirstName>Anthony</FirstName>
+		<LastName>Ocon</LastName>
+		<Big>Jared Kohl</Big>
+		<Class>2005</Class>
+		<PledgeYear>Unknown</PledgeYear>
+	</Brother>
+	<Brother>
+		<Position>Alum</Position>
+		<FirstName>Jared</FirstName>
+		<LastName>Kohl</LastName>
+		<Big>Glenn Robinson</Big>
+		<Class>2003</Class>
+		<PledgeYear>Unknown</PledgeYear>
+	</Brother>
+	<Brother>
+		<Position>Alum</Position>
+		<FirstName>Glenn</FirstName>
+		<LastName>Robinson</LastName>
+		<Big></Big>
+		<Class>1993</Class>
+		<PledgeYear>Unknown</PledgeYear>
+	</Brother>
+	<Brother>
+		<Position>Alum</Position>
+		<FirstName>Avery</FirstName>
+		<LastName>Fallon</LastName>
+		<Big>Adina McCoy</Big>
+		<Class>???</Class>
+		<PledgeYear>Unknown</PledgeYear>
+	</Brother>
+	<Brother>
+		<Position>Alum</Position>
+		<FirstName>Adina</FirstName>
+		<LastName>McCoy</LastName>
+		<Big>Ryan Capasse</Big>
+		<Class>2013</Class>
+		<PledgeYear>Unknown</PledgeYear>
+	</Brother>
+	<Brother>
+		<Position>Alum</Position>
+		<FirstName>Darren</FirstName>
+		<LastName>Smith</LastName>
+		<Big>Ryan Capasse</Big>
+		<Class>2014</Class>
+		<PledgeYear>Unknown</PledgeYear>
+	</Brother>
+	<Brother>
+		<Position>Alum</Position>
+		<FirstName>Eve</FirstName>
+		<LastName>Arnold</LastName>
+		<Big>Ryan Capasse</Big>
+		<Class>????</Class>
+		<PledgeYear>Unknown</PledgeYear>
+	</Brother>
+	<Brother>
+		<Position>Alum</Position>
+		<FirstName>Ryan</FirstName>
+		<LastName>Capasse</LastName>
+		<Big>Kara Lung</Big>
+		<Class>2012</Class>
+		<PledgeYear>Unknown</PledgeYear>
+	</Brother>
+	<Brother>
+		<Position>Alum</Position>
+		<FirstName>Thomas</FirstName>
+		<LastName>Hart</LastName>
+		<Big>Kara Lung</Big>
+		<Class>2012</Class>
+		<PledgeYear>Unknown</PledgeYear>
+	</Brother>
+	<Brother>
+		<Position>Alum</Position>
+		<FirstName>Kara</FirstName>
+		<LastName>Lung</LastName>
+		<Big>Timothy Muzio</Big>
+		<Class>2011</Class>
+		<PledgeYear>Unknown</PledgeYear>
+	</Brother>
+	<Brother>
+		<Position>Alum</Position>
+		<FirstName>Timothy</FirstName>
+		<LastName>Muzio</LastName>
+		<Big>Jackie Janis</Big>
+		<Class>2011</Class>
+		<PledgeYear>Unknown</PledgeYear>
+	</Brother>
+	<Brother>
+		<Position>Alum</Position>
+		<FirstName>Jackie</FirstName>
+		<LastName>Janis</LastName>
+		<Big>David Kozlowski</Big>
+		<Class>2010</Class>
+		<PledgeYear>Unknown</PledgeYear>
+	</Brother>
+	<Brother>
+		<Position>Alum</Position>
+		<FirstName>Lea</FirstName>
+		<LastName>Rubin</LastName>
+		<Big>Becky Bailey</Big>
+		<Class>2011</Class>
+		<PledgeYear>Unknown</PledgeYear>
+	</Brother>
+	<Brother>
+		<Position>Alum</Position>
+		<FirstName>Rachel</FirstName>
+		<LastName>Hamilton</LastName>
+		<Big>Becky Bailey</Big>
+		<Class>2011</Class>
+		<PledgeYear>Unknown</PledgeYear>
+	</Brother>
+	<Brother>
+		<Position>Alum</Position>
+		<FirstName>Becky</FirstName>
+		<LastName>Bailey</LastName>
+		<Big>David Kozlowski</Big>
+		<Class>2010</Class>
+		<PledgeYear>Unknown</PledgeYear>
+	</Brother>
+	<Brother>
+		<Position>Alum</Position>
+		<FirstName>Mitchell</FirstName>
+		<LastName>Lambrecht</LastName>
+		<Big>Hailee Wetherbee</Big>
+		<Class>2015</Class>
+		<PledgeYear>Unknown</PledgeYear>
+	</Brother>
+	<Brother>
+		<Position>Alum</Position>
+		<FirstName>Anne</FirstName>
+		<LastName>Sweeney-Jones</LastName>
+		<Big>Hailee Wetherbee</Big>
+		<Class>2014</Class>
+		<PledgeYear>Unknown</PledgeYear>
+	</Brother>
+	<Brother>
+		<Position>Alum</Position>
+		<FirstName>Hailee</FirstName>
+		<LastName>Wetherbee</LastName>
+		<Big>Brain Zeberl</Big>
+		<Class>2012</Class>
+		<PledgeYear>Unknown</PledgeYear>
+	</Brother>
+	<Brother>
+		<Position>Alum</Position>
+		<FirstName>Amy</FirstName>
+		<LastName>Huang</LastName>
+		<Big>Brain Zeberl</Big>
+		<Class>2014</Class>
+		<PledgeYear>Unknown</PledgeYear>
+	</Brother>
+	<Brother>
+		<Position>Alum</Position>
+		<FirstName>Brain</FirstName>
+		<LastName>Zeberl</LastName>
+		<Big>Adam Cooke</Big>
+		<Class>2011</Class>
+		<PledgeYear>Unknown</PledgeYear>
+	</Brother>
+	<Brother>
+		<Position>Alum</Position>
+		<FirstName>Faith</FirstName>
+		<LastName>Murphy</LastName>
+		<Big>Chris McNamee</Big>
+		<Class>2010</Class>
+		<PledgeYear>Unknown</PledgeYear>
+	</Brother>
+	<Brother>
+		<Position>Alum</Position>
+		<FirstName>Andy</FirstName>
+		<LastName>Swenson</LastName>
+		<Big>Chris McNamee</Big>
+		<Class>2011</Class>
+		<PledgeYear>Unknown</PledgeYear>
+	</Brother>
+	<Brother>
+		<Position>Alum</Position>
+		<FirstName>Chris</FirstName>
+		<LastName>McNamee</LastName>
+		<Big>Shahrzad Massoudi</Big>
+		<Class>2009</Class>
+		<PledgeYear>Unknown</PledgeYear>
+	</Brother>
+	<Brother>
+		<Position>Alum</Position>
+		<FirstName>Shahrzad</FirstName>
+		<LastName>Massoudi</LastName>
+		<Big>Luticha Doucette</Big>
+		<Class>2008</Class>
+		<PledgeYear>Unknown</PledgeYear>
+	</Brother>
+	<Brother>
+		<Position>Alum</Position>
+		<FirstName>Adam</FirstName>
+		<LastName>Cooke</LastName>
+		<Big>Luticha Doucette</Big>
+		<Class>2011</Class>
+		<PledgeYear>Unknown</PledgeYear>
+	</Brother>
+	<Brother>
+		<Position>Alum</Position>
+		<FirstName>Luticha</FirstName>
+		<LastName>Doucette</LastName>
+		<Big>Jamie Lou Mallonga</Big>
+		<Class>2008</Class>
+		<PledgeYear>Unknown</PledgeYear>
+	</Brother>
+	<Brother>
+		<Position>Alum</Position>
+		<FirstName>Clara</FirstName>
+		<LastName>Prior</LastName>
+		<Big>Jamie Lou Mallonga</Big>
+		<Class>Nakesha Smith</Class>
+		<PledgeYear>Unknown</PledgeYear>
+	</Brother>
+	<Brother>
+		<Position>Alum</Position>
+		<FirstName>Jamie Lou</FirstName>
+		<LastName>Mallonga</LastName>
+		<Big>Nakesha Smith</Big>
+		<Class>2005</Class>
+		<PledgeYear>Unknown</PledgeYear>
+	</Brother>
+	<Brother>
+		<Position>Alum</Position>
+		<FirstName>Jackie</FirstName>
+		<LastName>Liu</LastName>
+		<Big>Nakesha Smith</Big>
+		<Class>2004</Class>
+		<PledgeYear>Unknown</PledgeYear>
+	</Brother>
+	<Brother>
+		<Position>Alum</Position>
+		<FirstName>Nakesha</FirstName>
+		<LastName>Smith</LastName>
+		<Big>Joseph Lott</Big>
+		<Class>2003</Class>
+		<PledgeYear>Unknown</PledgeYear>
+	</Brother>
+	<Brother>
+		<Position>Alum</Position>
+		<FirstName>Joseph</FirstName>
+		<LastName>Lott</LastName>
+		<Big>Sam Brett</Big>
+		<Class>2002</Class>
+		<PledgeYear>Unknown</PledgeYear>
+	</Brother>
+	<Brother>
+		<Position>Alum</Position>
+		<FirstName>Ryan</FirstName>
+		<LastName>Ellis</LastName>
+		<Big>Lauren Rizzo</Big>
+		<Class>2002</Class>
+		<PledgeYear>Unknown</PledgeYear>
+	</Brother>
+	<Brother>
+		<Position>Alum</Position>
+		<FirstName>Scott</FirstName>
+		<LastName>Badrick</LastName>
+		<Big>Stephen Rieth</Big>
+		<Class>2004</Class>
+		<PledgeYear>Unknown</PledgeYear>
+	</Brother>
+	<Brother>
+		<Position>Alum</Position>
+		<FirstName>Lauren</FirstName>
+		<LastName>Rizzo</LastName>
+		<Big>Fernando Llados</Big>
+		<Class>2001</Class>
+		<PledgeYear>Unknown</PledgeYear>
+	</Brother>
+	<Brother>
+		<Position>Alum</Position>
+		<FirstName>Stephen</FirstName>
+		<LastName>Rieth</LastName>
+		<Big>Fernando Llados</Big>
+		<Class>2002</Class>
+		<PledgeYear>Unknown</PledgeYear>
+	</Brother>
+	<Brother>
+		<Position>Alum</Position>
+		<FirstName>Rezarta</FirstName>
+		<LastName>Ajazi</LastName>
+		<Big>Fernando Llados</Big>
+		<Class>2003</Class>
+		<PledgeYear>Unknown</PledgeYear>
+	</Brother>
+	<Brother>
+		<Position>Alum</Position>
+		<FirstName>Fernando</FirstName>
+		<LastName>Llados</LastName>
+		<Suffix>Jr.</Suffix>
+		<Big>Sam Brett</Big>
+		<Class>1998</Class>
+		<PledgeYear>Unknown</PledgeYear>
+	</Brother>
+	<Brother>
+		<Position>Alum</Position>
+		<FirstName>Han</FirstName>
+		<LastName>Hoang</LastName>
+		<Big>Sam Brett</Big>
+		<Class>2001</Class>
+		<PledgeYear>Unknown</PledgeYear>
+	</Brother>
+	<Brother>
+		<Position>Alum</Position>
+		<FirstName>Sam</FirstName>
+		<LastName>Brett</LastName>
+		<Big></Big>
+		<Class>1995</Class>
+		<PledgeYear>Unknown</PledgeYear>
+	</Brother>
+	<Brother>
+		<Position>Alum</Position>
+		<FirstName>Laura</FirstName>
+		<LastName>Parisi</LastName>
+		<Big>Ashley Versaggi</Big>
+		<Class>2013</Class>
+		<PledgeYear>Unknown</PledgeYear>
+	</Brother>
+	<Brother>
+		<Position>Alum</Position>
+		<FirstName>Zoe</FirstName>
+		<LastName>Edelman-Brier</LastName>
+		<Big>Ashley Versaggi</Big>
+		<Class>2014</Class>
+		<PledgeYear>Unknown</PledgeYear>
+	</Brother>
+	<Brother>
+		<Position>Alum</Position>
+		<FirstName>Ashley</FirstName>
+		<LastName>Versaggi</LastName>
+		<Big>Alexandra Lansing</Big>
+		<Class>2012</Class>
+		<PledgeYear>Unknown</PledgeYear>
+	</Brother>
+	<Brother>
+		<Position>Alum</Position>
+		<FirstName>Alexandra</FirstName>
+		<LastName>Lansing</LastName>
+		<Big>Jesse Spencer</Big>
+		<Class>2011</Class>
+		<PledgeYear>Unknown</PledgeYear>
+	</Brother>
+	<Brother>
+		<Position>Alum</Position>
+		<FirstName>Jesse</FirstName>
+		<LastName>Spencer</LastName>
+		<Big>Sidney Coombs</Big>
+		<Class>2010</Class>
+		<PledgeYear>Unknown</PledgeYear>
+	</Brother>
+	<Brother>
+		<Position>Alum</Position>
+		<FirstName>Guy</FirstName>
+		<LastName>Woolfe</LastName>
+		<Suffix>II</Suffix>
+		<Big>Devin Murray</Big>
+		<Class>2013</Class>
+		<PledgeYear>Unknown</PledgeYear>
+	</Brother>
+	<Brother>
+		<Position>Alum</Position>
+		<FirstName>Devin</FirstName>
+		<LastName>Murray</LastName>
+		<Big>Avani Sudhakar</Big>
+		<Class>2013</Class>
+		<PledgeYear>Unknown</PledgeYear>
+	</Brother>
+	<Brother>
+		<Position>Alum</Position>
+		<FirstName>Avani</FirstName>
+		<LastName>Sudhakar</LastName>
+		<Big>Sidney Coombs</Big>
+		<Class>2011</Class>
+		<PledgeYear>Unknown</PledgeYear>
+	</Brother>
+	<Brother>
+		<Position>Alum</Position>
+		<FirstName>Chantelle</FirstName>
+		<LastName>Brown</LastName>
+		<Big>Sidney Coombs</Big>
+		<Class>2010</Class>
+		<PledgeYear>Unknown</PledgeYear>
+	</Brother>
+	<Brother>
+		<Position>Alum</Position>
+		<FirstName>Jake</FirstName>
+		<LastName>Freyn</LastName>
+		<Big>Keegan Gojia</Big>
+		<Class>2011</Class>
+		<PledgeYear>Unknown</PledgeYear>
+	</Brother>
+	<Brother>
+		<Position>Alum</Position>
+		<FirstName>Cherie</FirstName>
+		<LastName>Wong</LastName>
+		<Big>Keegan Gojia</Big>
+		<Class>2012</Class>
+		<PledgeYear>Unknown</PledgeYear>
+	</Brother>
+	<Brother>
+		<Position>Alum</Position>
+		<FirstName>Keegan</FirstName>
+		<LastName>Gojia</LastName>
+		<Big>Irma Prosser</Big>
+		<Class>2010</Class>
+		<PledgeYear>Unknown</PledgeYear>
+	</Brother>
+	<Brother>
+		<Position>Alum</Position>
+		<FirstName>Ashley</FirstName>
+		<LastName>Willsey</LastName>
+		<Big>Irma Prosser</Big>
+		<Class>2010</Class>
+		<PledgeYear>Unknown</PledgeYear>
+	</Brother>
+	<Brother>
+		<Position>Alum</Position>
+		<FirstName>Sidney</FirstName>
+		<LastName>Coombs</LastName>
+		<Big>Kate Higgins</Big>
+		<Class>2009</Class>
+		<PledgeYear>Unknown</PledgeYear>
+	</Brother>
+	<Brother>
+		<Position>Alum</Position>
+		<FirstName>Kenny</FirstName>
+		<LastName>Kort</LastName>
+		<Big>Kate Higgins</Big>
+		<Class>???</Class>
+		<PledgeYear>Unknown</PledgeYear>
+	</Brother>
+	<Brother>
+		<Position>Alum</Position>iddl
+		<FirstName>Kate</FirstName>
+		<LastName>Higgins</LastName>
+		<Big>Ian Cawthray</Big>
+		<Class>2006</Class>
+		<PledgeYear>Unknown</PledgeYear>
+	</Brother>
+	<Brother>
+		<Position>Alum</Position>
+		<FirstName>Patrick</FirstName>
+		<LastName>McLaughin</LastName>
+		<Big>Joesph Stephens</Big>
+		<Class>2007</Class>
+		<PledgeYear>Unknown</PledgeYear>
+	</Brother>
+	<Brother>
+		<Position>Alum</Position>
+		<FirstName>Arnob</FirstName>
+		<LastName>Alam</LastName>
+		<Big>2008</Big>
+		<Class></Class>
+		<PledgeYear>Unknown</PledgeYear>
+	</Brother>
+	<Brother>
+		<Position>Alum</Position>
+		<FirstName>Joseph</FirstName>
+		<LastName>Stephens</LastName>
+		<Suffix>Jr.</Suffix>
+		<Big>Andrew Wozniak</Big>
+		<Class></Class>
+		<PledgeYear>Unknown</PledgeYear>
+	</Brother>
+	<Brother>
+		<Position>Alum</Position>
+		<FirstName>Donielle</FirstName>
+		<MiddleName>E.</MiddleName>
+		<LastName>Peck</LastName>
+		<Big>Andrew Wozniak</Big>
+		<Class>2008</Class>
+		<PledgeYear>Unknown</PledgeYear>
+	</Brother>
+	<Brother>
+		<Position>Alum</Position>
+		<FirstName>Andrew</FirstName>
+		<LastName>Wozniak</LastName>
+		<Big>Rachel Pleuthner</Big>
+		<Class>2006</Class>
+		<PledgeYear>Unknown</PledgeYear>
+	</Brother>
+	<Brother>
+		<Position>Alum</Position>
+		<FirstName>Jessica</FirstName>
+		<LastName>Katolik</LastName>
+		<Big>Rachel Pleuthner</Big>
+		<Class></Class>
+		<PledgeYear>Unknown</PledgeYear>
+	</Brother>
+	<Brother>
+		<Position>Alum</Position>
+		<FirstName>Casey</FirstName>
+		<LastName>Lubking</LastName>
+		<Big>Matthew Dirmyer</Big>
+		<Class>2003</Class>
+		<PledgeYear>Unknown</PledgeYear>
+	</Brother>
+	<Brother>
+		<Position>Alum</Position>
+		<FirstName>Matthew</FirstName>
+		<LastName>Dirmyer</LastName>
+		<Big>Ian Cawthray</Big>
+		<Class>2002</Class>
+		<PledgeYear>Unknown</PledgeYear>
+	</Brother>
+	<Brother>
+		<Position>Alum</Position>
+		<FirstName>Rachel</FirstName>
+		<LastName>Pluthner</LastName>
+		<Big>Nicole Tu</Big>
+		<Class>2004</Class>
+		<PledgeYear>Unknown</PledgeYear>
+	</Brother>
+	<Brother>
+		<Position>Alum</Position>
+		<FirstName>Christina</FirstName>
+		<LastName>Rafferty</LastName>
+		<Big>Nicole Tu</Big>
+		<Class>2005</Class>
+		<PledgeYear>Unknown</PledgeYear>
+	</Brother>
+	<Brother>
+		<Position>Alum</Position>
+		<FirstName>Nicole</FirstName>
+		<LastName>Tu</LastName>
+		<Big>Ian Cathray</Big>
+		<Class>2001</Class>
+		<PledgeYear>Unknown</PledgeYear>
+	</Brother>
+	<Brother>
+		<Position>Alum</Position>
+		<FirstName>Ian</FirstName>
+		<LastName>Cathray</LastName>
+		<Big>Jennifer Jankauskas</Big>
+		<Class>2001</Class>
+		<PledgeYear>Unknown</PledgeYear>
+	</Brother>
+	<Brother>
+		<Position>Alum</Position>
+		<FirstName>Megon</FirstName>
+		<LastName>Walker</LastName>
+		<Big>Jennifer Jankauskas</Big>
+		<Class>2000</Class>
+		<PledgeYear>Unknown</PledgeYear>
+	</Brother>
+	<Brother>
+		<Position>Alum</Position>
+		<FirstName>Jennifer</FirstName>
+		<LastName>Jankaskaus</LastName>
+		<Big></Big>
+		<Class>1999</Class>
+		<PledgeYear>Unknown</PledgeYear>
+	</Brother>
+	<Brother>
+		<Position>Alum</Position>
+		<FirstName>Rob</FirstName>
+		<LastName>Schwann</LastName>
+		<Big>Bobb Martin</Big>
+		<Class>2010</Class>
+		<PledgeYear>Unknown</PledgeYear>
+	</Brother>
+	<Brother>
+		<Position>Alum</Position>
+		<FirstName>Tieya</FirstName>
+		<LastName>Wozniak</LastName>
+		<Big>Bobb Martin</Big>
+		<Class>2010</Class>
+		<PledgeYear>Unknown</PledgeYear>
+	</Brother>
+	<Brother>
+		<Position>Alum</Position>
+		<FirstName>Ryan</FirstName>
+		<LastName>Dunn</LastName>
+		<Big>Bobb Martin</Big>
+		<Class>2011</Class>
+		<PledgeYear>Unknown</PledgeYear>
+	</Brother>
+	<Brother>
+		<Position>Alum</Position>
+		<FirstName>Bobb</FirstName>
+		<LastName>Martin</LastName>
+		<Chapter>Iota</Chapter>
+		<Big>Richard Do</Big>
+		<Class>2005</Class>
+		<PledgeYear>Unknown</PledgeYear>
+	</Brother>
+	<Brother>
+		<Position>Alum</Position>
+		<FirstName>Richard</FirstName>
+		<LastName>Do</LastName>
+		<Chapter>Iota</Chapter>
+		<Big>Mike Lindley</Big>
+		<Class>2005</Class>
+		<PledgeYear>Unknown</PledgeYear>
+	</Brother>
+	<Brother>
+		<Position>Alum</Position>
+		<FirstName>Mike</FirstName>
+		<LastName>Lindley</LastName>
+		<Chapter>Iota</Chapter>
+		<Big>Craig Szymanski</Big>
+		<Class></Class>
+		<PledgeYear>Unknown</PledgeYear>
+	</Brother>
+	<Brother>
+		<Position>Alum</Position>
+		<FirstName>Craig</FirstName>
+		<LastName>Szymanski</LastName>
+		<Big></Big>
+		<Class>2000</Class>
+		<PledgeYear>Unknown</PledgeYear>
+	</Brother>
+	<Brother>
+		<Position>Alum</Position>
+		<FirstName>Charles</FirstName>
+		<MiddleName>J.</MiddleName>
+		<LastName>Alexis</LastName>
+		<Suffix>II</Suffix>
+		<Big>Nikole Greeson</Big>
+		<Class>2006</Class>
+		<PledgeYear>Unknown</PledgeYear>
+	</Brother>
+	<Brother>
+		<Position>Alum</Position>
+		<FirstName>Nikole</FirstName>
+		<LastName>Greeson</LastName>
+		<Big>Ian Cawthray</Big>
+		<Class>2003</Class>
+		<PledgeYear>Unknown</PledgeYear>
 	</Brother>
 </Brothers>

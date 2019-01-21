@@ -2,12 +2,7 @@
 <html>
 	<head>
 		<title>AXS Beta Sigma - Meet the Brothers</title>
-		<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-		<link rel='stylesheet' href='css/bootstrap.css' type='text/css'>
-		<link rel='stylesheet' href='style.css' type='text/css'>
-		<script type="text/javascript" src="js/bootstrap.js"></script>
-		<script src="https://d3js.org/d3.v4.min.js"></script>
-		<script type="text/javascript" src="scripts.js"></script>
+			<?php include('imports.php') ?>
 	</head>
 	<body>
 		<main>
@@ -29,6 +24,16 @@
 					section.append("h4")
 						.attr("class", "bro-name")
 						.html(function(x){return x.fn + " " + x.ln;});
+					section.append("br");
+					section.append("h4")
+						.attr("class", "bro-position")
+						.html(function(x){return x.positions.join(", ");})
+						.style("display",function(x){
+							if (x.has_position())
+								return "initial";
+							else
+								return "none";
+						});
 					section.append("br")
 					section.append("p")
 						.attr("class", "bro-bio")
@@ -46,17 +51,29 @@
 				    if (this.readyState == 4 && this.status == 200) {
 				    	xml = this.responseXML;
 				    	filter = function(x){
-				    		return x.position != "Alum" && (x.has_bio() || x.has_portrait());
+				    		return x.positions[0] != "Alum";//x.position != "Alum" && (x.has_bio() || x.has_portrait());
 				    	}
 				    	sort_func = function(a, b){
 				    		var eboard = ['Master Alchemist', 'Vice-Master Alchemist', 'Master of Ceremonies', 'Treasurer'];
 				    		//todo: possibly add more sorting
+				    		//eboard gets priority
+				    		if (b.has_one_of_positions(eboard))
+			    			{
+			    				if  (!a.has_one_of_positions(eboard))
+			    				{
+			    					return true;
+			    				}
+			    				else //if both are on eboard, sort in order
+			    				{
+			    					var a_pos_idx = index_contains(eboard, a.positions);
+    								var b_pos_idx = index_contains(eboard, b.positions);
+    								return b_pos_idx < a_pos_idx;
+			    				}
+				    		}
 				    		if (b.has_position() != a.has_position()){
 				    			return (b.has_position() && !a.has_position());
 				    		}
-				    		if (b.has_position() && a.has_position() && b.position in eboard)  {
-				    			return (b.position in eboard) &&!(a.position in eboard);
-				    		}
+
 				    		if (b.has_portrait() != a.has_portrait()) {
 				    			return b.has_portrait() && !a.has_portrait();
 				    		}
@@ -65,6 +82,8 @@
 				        draw_brothers();
 				    }
 				};
+
+
 				xhttp.open("GET", "brothers.xml", true);
 				xhttp.send();
 			</script>

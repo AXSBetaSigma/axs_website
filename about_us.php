@@ -2,13 +2,7 @@
 <html>
 	<head>
 		<title>AXS Beta Sigma - About Us</title>
-		<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-		<link rel='stylesheet' href='css/bootstrap.css' type='text/css'>
-		<link rel='stylesheet' href='style.css' type='text/css'>
-		<meta content="width=device-width, initial-scale=1" name="viewport" />
-		<script type="text/javascript" src="js/bootstrap.js"></script>
-		<script src="https://d3js.org/d3.v4.min.js"></script>
-		<script type="text/javascript" src="scripts.js"></script>
+		<?php include('imports.php') ?>
 	</head>
 	<body>
 		<?php include('header.php'); ?>

@@ -1,0 +1,367 @@
+/* ------ general stuff ------ */
+:root {
+	/*--prussian-blue: #003153;*/
+	--prussian-blue: #0000b3;
+	/*--chrome-yellow: #ffa700;*/
+	--chrome-yellow: #ffcc00;
+
+}
+
+body {
+	font-family: 'Domine', serif;
+}
+
+main {
+	width: 100%;
+	height: 100%;
+}
+
+p {
+	padding: 1% 1% 1% 1%;
+}
+
+/* ------ header ------ */
+header.container-fluid {
+	border: 1px solid var(--chrome-yellow);
+	background-color: var(--prussian-blue);
+	padding: 0 0 0 0;
+}
+
+h1, h5, h6 {
+	font-family: 'Cagliostro', sans-serif;
+	color: var(--chrome-yellow);
+	text-align: center;
+}
+
+/*"Alpha chi sigma"*/
+h1 {
+	font-size: 4rem;
+}
+
+h2 {
+	text-align: center;
+}
+
+h3 {
+	margin: .7% .7% .7% .7%;
+}
+
+/*Beta Sigma*/
+h5 {
+	font-size: 2.7rem;
+}
+
+/*"Professional...*/
+h6 {
+	font-size: 1.35rem;
+	margin-top:1.5%;
+}
+
+#main-nav-bar {
+	background-color: var(--chrome-yellow);
+}
+
+#mobile-nav-dropdown {
+	background-color: var(--chrome-yellow);
+	color: var(--prussian-blue);
+	width: 95%;
+	text-align: center;
+}
+
+.dropdown-toggle {
+	width: 100%;
+	background-color: var(--chrome-yellow);
+	color: var(--prussian-blue);
+	font-size: 1.7rem;
+}
+
+#logo-image {
+	display: block;
+	width: 16em;
+	height: 16em;
+}
+
+.header-subsection {
+	display: inline-block;
+	font-family: impact;
+	margin: 0 auto 0 auto;
+	font-family: 'Cagliostro', sans-serif;
+	overflow-y: hidden;
+	vertical-align: middle;
+}
+
+#aims {
+	font-style: bold;
+	color: var(--chrome-yellow);
+	text-align: right;
+}
+
+#events-small {
+	margin: 2% auto 2% auto;
+	padding: 1% 1% 1% 1%;
+	text-align: center;
+}
+
+
+@media only screen and (max-width: 800px) {
+	#aims {
+		display: none;
+	}
+
+	.header-subsection {
+		width: 49%;
+	}
+}
+
+@media only screen and (min-width: 800px) {
+	#aims {
+		font-size: 1.8em;
+	}
+
+	.header-subsection {
+		width: 24%;
+	}
+
+	.center-subsection {
+		width: 48%
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	h6 {
+		display: none;
+	}
+
+	.nav-item {
+		width: 100%;
+	}
+
+	.header-subsection {
+		width: 100%;
+	}
+
+	#logo-image {
+		display: none;
+	}
+
+	h1 {
+		font-size: 2em;
+		text-align: center;
+	}
+
+	h5 {
+		font-size: 1.5em;
+		text-align: center;
+	}
+
+	#main-nav-bar {
+		display: none;
+	}
+}
+
+@media only screen and (min-width: 600px) {
+	#mobile-nav-bar {
+		display: none;
+	}
+}
+
+/* ------ footer ------ */
+
+footer {
+	background-color: var(--prussian-blue);
+	color: var(--chrome-yellow);
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	margin-top: 4em;
+	padding: 1% 1% 1% 1%;
+}
+
+@media only screen and (max-width: 800px) {
+	footer {
+		border-top: 2px outset black;
+	}
+}
+
+@media only screen and (min-width: 800px) {
+	footer {
+		width: 400px;
+		border-radius: 8px;
+		border: 2px outset black;
+		margin-bottom: 4em;
+	}
+}
+
+/*other stuff*/
+
+.bro {
+	clear: both;
+	border: 1pt var(--prussian-blue) inset;
+	margin: 1% 1% 1% 1%;
+	padding: .5% .5% .5% .5%;
+	height: 256px ;
+}
+
+.bro-portrait {
+	width: 200px;
+	height: 200px;
+	float: left;
+	margin: 1% 1% 1% 1%;
+	border-radius: 8px;
+	border: 2px solid var(--prussian-blue);
+	overflow: hidden;
+}
+
+.bro-name {
+	display: inline-block;
+	margin-left: .5%;
+	margin-right: .5%;
+}
+
+.bro-position {
+	font-size: 1.2rem;
+	margin-left: .5%;
+	margin-right: .5%;
+}
+
+.bro-bio {
+	margin-left: 1%;
+	margin-right: 1%;
+	text-indent: .5cm;
+}
+
+@media only screen and (max-width: 800px)
+{
+	.bro {
+		height: 325px;
+	}
+	.bro-portrait {
+		width: 128px;
+		height: 128px;
+	}
+}
+
+@media only screen and (max-width: 600px)
+{
+	/*options!*/
+	/*.bro-portrait {
+		border: 4px outset var(--prussian-blue);
+	}*/
+
+	.bro {
+		height: 512px;
+	}
+}
+
+legend {
+	width: 256px;
+	text-align: center;
+}
+
+.chem-linedraw {
+	fill: none;
+	stroke: var(--prussian-blue);
+	stroke-width: 2px;
+}
+
+#calendar {
+	width: 800px;
+	height: 600px;
+	border: 0;
+}
+
+#bros {
+	width: 85%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#bros-pic-box {
+	border-radius: 20px;
+	padding: 0 0 0 0;
+	border: 5pt outset var(--prussian-blue);
+	text-align: center;
+	overflow: hidden;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#bros-pic {
+	display: block;
+	width: 100%;
+}
+
+@media only screen and (max-width: 900px) {
+	#events-small {
+		margin-left: 0%;
+		margin-right: 0%;
+		border: none;
+		width: 100%;
+	}
+
+	#calendar {
+		width: 95%;
+		height: 400px;
+	}
+
+	#home-page-text {
+		font-size: 1.5em;
+		padding: 1% 1% 1% 1%;
+	}
+
+	#bros-pic-box {
+		width: 100%;
+	}
+}
+	
+@media only screen and (min-width: 900px) {
+	#events-small {
+		border: 1px solid var(--prussian-blue);
+		width: 900px;
+	}
+
+	#calendar {
+		width: 800px;
+		height: 600px;
+	}
+
+	#home-page-text {
+		font-size: 2em;
+		padding: 1% 5% 1% 5%;
+	}
+
+	#bros-pic-box {
+		width: 80%;
+	}
+}
+
+/*override*/
+.nav-item {
+ 	font-size: 20pt;
+}
+
+.nav-link {
+	color: var(--prussian-blue);
+}
+
+.nav-link:hover {
+	color: white;
+}
+
+.active {
+	color: black;
+}
+
+.active a{
+	/*color: #6633ff;*/
+}
+
+.officer-label {
+	font-size: 16pt;
+}
+
+.social-media-icon {
+	width: 64px;
+	height: 64px;
+	margin: 4px 4px 4px 4px;
+}

@@ -2,12 +2,7 @@
 <html>
 	<head>
 		<title>AXS Beta Sigma - Contact Us</title>
-		<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-		<link rel='stylesheet' href='css/bootstrap.css' type='text/css'>
-		<link rel='stylesheet' href='style.css' type='text/css'>
-		<script type="text/javascript" src="js/bootstrap.js"></script>
-		<script src="https://d3js.org/d3.v4.min.js"></script>
-		<script type="text/javascript" src="scripts.js"></script>
+		<?php include('imports.php') ?>
 	</head>
 	<body onresize="draw_stuff()">
 		<?php include('header.php'); ?>
@@ -20,6 +15,7 @@
 		<script>
 
 		officers = []
+		mobile_width = 800;
 
 		function coords_to_str(x) {
 			return x[0] + "," + x[1];
@@ -78,105 +74,143 @@
 			svg = d3.select('#officers-portraits');
 			svg.selectAll("g").remove();
 			svg.selectAll("polyline").remove();
-			var r = 128;
+			if (window.innerWidth > mobile_width)
+			{	
+				var r = 128;
 
-			if (window.innerWidth < (r * 12)) {
-				svg.attr('height', 12 * r);
+				if (window.innerWidth < (r * 12)) {
+					svg.attr('height', 12 * r);
+				}
+				else {
+					svg.attr('height', 6 * r);
+				}
+
+
+				distance_from_edge = r * Math.sqrt(3);
+				var y = r + 12;
+				line_distance = -6;
+
+				ma_hex = draw_officer(officers[0], distance_from_edge, y, r, 1);
+				vma_hex = draw_officer(officers[1], distance_from_edge, y + 3 * r, r, 1);
+				//use polyline so can use points instead of x1,y1,x2,y2
+				svg.append("polyline") 
+					.attr('points', ma_hex[0].join(',') + " " + vma_hex[3].join(','))
+					.attr('class', 'chem-linedraw');
+				svg.append("polyline") // double bond
+					.attr('points', [ma_hex[0], vma_hex[3]].translate_at_angle(line_distance, 0).join(','))
+					.attr('class', 'chem-linedraw');
+
+				line_points = [ma_hex[1], [0, ma_hex[1][1] + Math.floor(r / 2)]]
+				svg.append("polyline")
+					.attr('points', line_points.map(coords_to_str).join(' '))
+					.attr('class', 'chem-linedraw');
+				svg.append("polyline") //double bond
+					.attr('points', line_points.translate_at_angle(-line_distance,  2 * Math.PI / 6).map(coords_to_str).join(' '))
+					.attr('class', 'chem-linedraw');
+
+				line_points = [vma_hex[2], [0, vma_hex[2][1] - Math.floor(r / 2)]]
+				svg.append("polyline")
+					.attr('points', line_points.map(coords_to_str).join(' '))
+					.attr('class', 'chem-linedraw');
+				svg.append("polyline") //double bond
+					.attr('points', line_points.translate_at_angle(line_distance,  4 * Math.PI / 6).map(coords_to_str).join(' '))
+					.attr('class', 'chem-linedraw');
+
+				if (window.innerWidth < (r * 12)) {
+					y = y + (6 * r);
+				}
+
+				mc_hex = draw_officer(officers[2], window.innerWidth - distance_from_edge, y, r, -1);
+				treasurer_hex = draw_officer(officers[3], window.innerWidth - distance_from_edge, y + 3 * r, r, -1);
+				//use polyline so can use points instead of x1,y1,x2,y2
+				svg.append("polyline") 
+					.attr('points', mc_hex[0].join(',') + " " + treasurer_hex[3].join(','))
+					.attr('class', 'chem-linedraw');
+				svg.append("polyline") // double bond
+					.attr('points', [mc_hex[0], treasurer_hex[3]].translate_at_angle(line_distance, 0).join(','))
+					.attr('class', 'chem-linedraw');
+
+				line_points = [mc_hex[5], [window.innerWidth, mc_hex[1][1] + Math.floor(r / 2)]]
+				svg.append("polyline")
+					.attr('points', line_points.map(coords_to_str).join(' '))
+					.attr('class', 'chem-linedraw');
+				svg.append("polyline") //double bond
+					.attr('points', line_points.translate_at_angle(-line_distance,  4 * Math.PI / 6).map(coords_to_str).join(' '))
+					.attr('class', 'chem-linedraw');
+
+				line_points = [treasurer_hex[4], [window.innerWidth, treasurer_hex[2][1] - Math.floor(r / 2)]]
+				svg.append("polyline")
+					.attr('points', line_points.map(coords_to_str).join(' '))
+					.attr('class', 'chem-linedraw');
+				svg.append("polyline") //double bond
+					.attr('points', line_points.translate_at_angle(line_distance,  2 * Math.PI / 6).map(coords_to_str).join(' '))
+					.attr('class', 'chem-linedraw');
 			}
 			else {
-				svg.attr('height', 6 * r);
+				var r = window.innerWidth / 5;
+				var alt = r * Math.sqrt(3) / 2;
+				var distance_from_edge = (window.innerWidth - (3.5 * alt)) / 2;
+ 				var x = distance_from_edge;
+				var y = r + 12;
+				svg.attr("height", r * 4);
+				draw_officer(officers[0], x, y, r, 1);
+				draw_officer(officers[1], x + 2.25 * alt, y, r, -1);
+				y = y + 2 * alt;
+				x = x + alt * 1.125;
+				draw_officer(officers[2], x, y, r, 1);
+				draw_officer(officers[3], x + 2.25 * alt, y, r, -1);
 			}
-
-
-			distance_from_edge = r * Math.sqrt(3);
-			var y = r + 12;
-			line_distance = -6;
-
-			ma_hex = draw_officer(officers[0], distance_from_edge, y, r, 1);
-			vma_hex = draw_officer(officers[1], distance_from_edge, y + 3 * r, r, 1);
-			//use polyline so can use points instead of x1,y1,x2,y2
-			svg.append("polyline") 
-				.attr('points', ma_hex[0].join(',') + " " + vma_hex[3].join(','))
-				.attr('class', 'chem-linedraw');
-			svg.append("polyline") // double bond
-				.attr('points', [ma_hex[0], vma_hex[3]].translate_at_angle(line_distance, 0).join(','))
-				.attr('class', 'chem-linedraw');
-
-			line_points = [ma_hex[1], [0, ma_hex[1][1] + Math.floor(r / 2)]]
-			svg.append("polyline")
-				.attr('points', line_points.map(coords_to_str).join(' '))
-				.attr('class', 'chem-linedraw');
-			svg.append("polyline") //double bond
-				.attr('points', line_points.translate_at_angle(-line_distance,  2 * Math.PI / 6).map(coords_to_str).join(' '))
-				.attr('class', 'chem-linedraw');
-
-			line_points = [vma_hex[2], [0, vma_hex[2][1] - Math.floor(r / 2)]]
-			svg.append("polyline")
-				.attr('points', line_points.map(coords_to_str).join(' '))
-				.attr('class', 'chem-linedraw');
-			svg.append("polyline") //double bond
-				.attr('points', line_points.translate_at_angle(line_distance,  4 * Math.PI / 6).map(coords_to_str).join(' '))
-				.attr('class', 'chem-linedraw');
-
-			if (window.innerWidth < (r * 12)) {
-				y = y + (6 * r);
-			}
-
-			mc_hex = draw_officer(officers[2], window.innerWidth - distance_from_edge, y, r, -1);
-			treasurer_hex = draw_officer(officers[3], window.innerWidth - distance_from_edge, y + 3 * r, r, -1);
-			//use polyline so can use points instead of x1,y1,x2,y2
-			svg.append("polyline") 
-				.attr('points', mc_hex[0].join(',') + " " + treasurer_hex[3].join(','))
-				.attr('class', 'chem-linedraw');
-			svg.append("polyline") // double bond
-				.attr('points', [mc_hex[0], treasurer_hex[3]].translate_at_angle(line_distance, 0).join(','))
-				.attr('class', 'chem-linedraw');
-
-			line_points = [mc_hex[5], [window.innerWidth, mc_hex[1][1] + Math.floor(r / 2)]]
-			svg.append("polyline")
-				.attr('points', line_points.map(coords_to_str).join(' '))
-				.attr('class', 'chem-linedraw');
-			svg.append("polyline") //double bond
-				.attr('points', line_points.translate_at_angle(-line_distance,  4 * Math.PI / 6).map(coords_to_str).join(' '))
-				.attr('class', 'chem-linedraw');
-
-			line_points = [treasurer_hex[4], [window.innerWidth, treasurer_hex[2][1] - Math.floor(r / 2)]]
-			svg.append("polyline")
-				.attr('points', line_points.map(coords_to_str).join(' '))
-				.attr('class', 'chem-linedraw');
-			svg.append("polyline") //double bond
-				.attr('points', line_points.translate_at_angle(line_distance,  2 * Math.PI / 6).map(coords_to_str).join(' '))
-				.attr('class', 'chem-linedraw');
-
 		}
 
-		function draw_officer(officer, x, y, r, direction){
+		function draw_officer(officer, x, y, r, direction, info_text=true) {
 			svg = d3.select('#officers-portraits');
 			group = svg.append('g')
 				.attr('name', officer.fn + officer.ln);
 			hex = draw_hexagon(group, x, y, r, officer.get_portrait_src());
 			h = r / 6;
-			l1 = group.append('text')
-				.text(officer.position + " - " + officer.fn + " " + officer.ln + " - " + officer.pledgeyear)
-				.attr('class', 'officer-label')
-				.attr('x', x + direction * r)
-				.attr('y', y - (r / 2) + h);
-			l2 = group.append('text')
-				.text(officer.major + " - " + officer.class)
-				.attr('class', 'officer-label')
-				.attr('x', x + direction * r)
-				.attr('y', y - (h / 2) + h);
-			l3 = group.append('text')
-				.text(officer.email)
-				.attr('class', 'officer-label')
-				.attr('x', x + direction * r)
-				.attr('y', y + (r / 2));
-			if (direction == -1){
-				l1.style('text-anchor', 'end');
-				l2.style('text-anchor', 'end');
-				l3.style('text-anchor', 'end');
+			if (window.innerWidth > 800) {
+				l1 = group.append('text')
+					.text(officer.positions[0] + " - " + officer.fn + " " + officer.ln + " - " + officer.pledgeyear)
+					.attr('class', 'officer-label')
+					.attr('x', x + direction * r)
+					.attr('y', y - (r / 2) + h);
+				l2 = group.append('text')
+					.text(officer.major + " - " + officer.class)
+					.attr('class', 'officer-label')
+					.attr('x', x + direction * r)
+					.attr('y', y - (h / 2) + h);
+				l3 = group.append('text')
+					.text(officer.email)
+					.attr('class', 'officer-label')
+					.attr('x', x + direction * r)
+					.attr('y', y + (r / 2));
+				if (direction == -1){
+					l1.style('text-anchor', 'end');
+					l2.style('text-anchor', 'end');
+					l3.style('text-anchor', 'end');
+				}
 			}
-			return hex
+			else {
+				var popup = document.createElement("div");
+				l1 = document.createElement("span");
+				l1.setAttribute("class", 'officer-label');
+				l1.appendChild(document.createTextNode(officer.positions[0] + " - " + officer.fn + " " + officer.ln + " - " + officer.pledgeyear + "<br>"));
+				popup.append(l1);
+				l2 = document.createElement("span");
+				l2.setAttribute("class", 'officer-label');
+				l2.appendChild(document.createTextNode(officer.major + " - " + officer.class + "<br>"));
+				popup.append(l2);
+				l3 = document.createElement("span");
+				l3.setAttribute("class", 'officer-label');
+				l3.appendChild(document.createTextNode(officer.email + "<br>"));
+				popup.append(l3);
+				group.on("click", function(x){
+					var info = new Popper(hex, popup, {
+						placement: (direction == 1 ? 'right' : 'left')
+					});
+				});
+			}
+			return hex;
 		}
 
 		// main script
@@ -185,10 +219,13 @@
 		xhttp.onreadystatechange = function() {
 		    if (this.readyState == 4 && this.status == 200) {
 		    	xml = this.responseXML;
+		    	var eboard = ['Master Alchemist', 'Vice-Master Alchemist', 'Master of Ceremonies', 'Treasurer'];
 		    	filter = function(x){
-		    		return ((x.position == "Master Alchemist") || (x.position == "Vice-Master Alchemist") || (x.position == "Treasurer") || (x.position == "Master of Ceremonies"));
+		    		return x.has_one_of_positions(eboard);
 		    	}
-		        load_brothers(xml, officers, filter);
+
+		        load_brothers(xml, officers, filter);	
+		    	officers = 	brothers_with_positions(officers, eboard);
 
 		        draw_stuff();
 		    }
