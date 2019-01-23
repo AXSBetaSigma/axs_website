@@ -24,7 +24,7 @@
 					section.append("h4")
 						.attr("class", "bro-name")
 						.html(function(x){return x.fn + " " + x.ln;});
-					section.append("br");
+					section.append("br")
 					section.append("h4")
 						.attr("class", "bro-position")
 						.html(function(x){return x.positions.join(", ");})
@@ -38,10 +38,6 @@
 					section.append("p")
 						.attr("class", "bro-bio")
 						.html(function(x){return x.bio;});
-					d3.select("#brothers").selectAll("section").each(function(d, i){
-
-					});
-
 				}
 
 				// main script

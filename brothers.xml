@@ -10,7 +10,7 @@
 		<PledgeYear>Fall '15</PledgeYear>
 		<Bio>
 			My name is Dan and I’m a fifth-year Chemistry major from Massapequa, NY. I am currently doing research in Dr. Miri’s group where my main responsibility is to synthesize renewable step-growth polyesters and some of their corresponding monomers for polymerization. I also do much of the group’s solution-state NMR analysis. In my free time I love listening to music (I’m a bit of a metalhead), watching TV (That 70’s Show, It’s Always Sunny In Philadelphia, etc.), and playing various instruments (bass guitar, violin, cello, and occasionally, ukulele). In my three years in Alpha Chi Sigma I have held several positions (MA, VMA, MC, Social Chair) and have participated in three district conclaves.
-		</Bio>
+=		</Bio>
 	</Brother>
 	<Brother>
 		<Position>Vice-Master Alchemist</Position>
@@ -41,6 +41,7 @@
 	</Brother>
 	<Brother>
 		<Position>Treasurer</Position>
+		<Position>Alumni Secretary</Position>
 		<FirstName>Samantha</FirstName>
 		<LastName>Burger</LastName>
 		<HasPic/>
@@ -65,7 +66,7 @@
 		<PledgeYear>Spring '18</PledgeYear>
 		<Email>mabetasigma@gmail.com</Email>
 		<Bio>
-			Lexie is a fourth year chemistry student with a focus in environmental science and a minor in language science.  She has previously been the Reporter and social committee chair of the Beta Sigma chapter, and is now Master Alchemist and Advisory Chair.  Outside of AXS Lexie is very involved on RIT’s campus; she is a dancer and former E-Board member of the Vis Viva Dance Company, is a College if Science Student Ambassador, an eager volunteer for the School of Chemistry and Material Science, and has also been a lab teaching assistant and Orientation Leader in the past.  After RIT she hopes to pursue a geosciences career in glaciology and paleoclimatology.
+			Lexie is a fourth year chemistry student with a focus in environmental science and a minor in language science.  She has previously been the Reporter and social committee chair of the Beta Sigma chapter, and is now Master Alchemist and Advisory Chair.  Outside of AXS Lexie is very involved on RIT’s campus; she is a dancer and former E-Board member of the Vis Viva Dance Company, is a College of Science Student Ambassador, an eager volunteer for the School of Chemistry and Material Science, and has also been a lab teaching assistant and Orientation Leader in the past.  After RIT she hopes to pursue a geosciences career in glaciology and paleoclimatology.
 		</Bio>
 	</Brother>
 	<Brother>
@@ -191,6 +192,7 @@
 		<Position>Inactive</Position>
 		<FirstName>Trent</FirstName>
 		<LastName>Mochel</LastName>
+		<HasPic/>
 		<Big>David Tolge</Big>
 		<Major>Chemistry</Major>
 		<Class></Class>

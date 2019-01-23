@@ -111,6 +111,10 @@ h6 {
 	.header-subsection {
 		width: 49%;
 	}
+
+	h6 {
+		display: none;
+	}
 }
 
 @media only screen and (min-width: 800px) {
@@ -244,12 +248,20 @@ footer {
 @media only screen and (max-width: 600px)
 {
 	/*options!*/
-	/*.bro-portrait {
-		border: 4px outset var(--prussian-blue);
-	}*/
+	.bro-portrait {
+		height: 100px;
+		width: 100px;
+	}
 
 	.bro {
 		height: 512px;
+	}
+}
+
+@media only screen and (max-width: 400px)
+{
+	.bro {
+		overflow-y: auto;
 	}
 }
 
@@ -358,6 +370,22 @@ legend {
 
 .officer-label {
 	font-size: 16pt;
+}
+
+#officer-bio {
+	fill: var(--chrome-yellow);
+	stroke: var(--prussian-blue);
+	stroke-width: 2px;
+}
+
+#officer-bio text {
+	fill: black;
+	stroke-width: 0px;
+}
+
+.officer-link {
+	text-decoration: underline;
+	fill: blue;
 }
 
 .social-media-icon {

@@ -4,7 +4,7 @@
 		<title>AXS Beta Sigma - Contact Us</title>
 		<?php include('imports.php') ?>
 	</head>
-	<body onresize="draw_stuff()">
+	<body onresize="draw_stuff()" onclick="dismiss_box_if_exists()">
 		<?php include('header.php'); ?>
 		<h3>Contact Us</h3>
 		<p>
@@ -163,54 +163,130 @@
 		}
 
 		function draw_officer(officer, x, y, r, direction, info_text=true) {
-			svg = d3.select('#officers-portraits');
-			group = svg.append('g')
+			var svg = d3.select('#officers-portraits');
+			var group = svg.append('g')
 				.attr('name', officer.fn + officer.ln);
-			hex = draw_hexagon(group, x, y, r, officer.get_portrait_src());
-			h = r / 6;
+				// .attr('transform', 'translate(' + x + ',' + y + ')');
+			var hex = draw_hexagon(group, x, y, r, officer.get_portrait_src());
 			if (window.innerWidth > 800) {
-				l1 = group.append('text')
-					.text(officer.positions[0] + " - " + officer.fn + " " + officer.ln + " - " + officer.pledgeyear)
-					.attr('class', 'officer-label')
-					.attr('x', x + direction * r)
-					.attr('y', y - (r / 2) + h);
-				l2 = group.append('text')
-					.text(officer.major + " - " + officer.class)
-					.attr('class', 'officer-label')
-					.attr('x', x + direction * r)
-					.attr('y', y - (h / 2) + h);
-				l3 = group.append('text')
-					.text(officer.email)
-					.attr('class', 'officer-label')
-					.attr('x', x + direction * r)
-					.attr('y', y + (r / 2));
-				if (direction == -1){
-					l1.style('text-anchor', 'end');
-					l2.style('text-anchor', 'end');
-					l3.style('text-anchor', 'end');
-				}
+				draw_info(officer, x, y, r, group, direction);
+				// l1 = group.append('text')
+				// 	.text(officer.positions[0] + " - " + officer.fn + " " + officer.ln + " - " + officer.pledgeyear)
+				// 	.attr('class', 'officer-label')
+				// 	.attr('x', x + direction * r)
+				// 	.attr('y', y - (r / 2) + h);
+				// l2 = group.append('text')
+				// 	.text(officer.major + " - " + officer.class)
+				// 	.attr('class', 'officer-label')
+				// 	.attr('x', x + direction * r)
+				// 	.attr('y', y - (h / 2) + h);
+				// l3 = group.append('a')
+				// 	.attr('href', "mailto:" + officer.email)
+				// 	.append('text')
+				// 		.text(officer.email)
+				// 		.attr('class', 'officer-label officer-link')
+				// 		.attr('x', x + direction * r)
+				// 		.attr('y', y + (r / 2));
+				// if (direction == -1){
+				// 	l1.style('text-anchor', 'end');
+				// 	l2.style('text-anchor', 'end');
+				// 	l3.style('text-anchor', 'end');
+				// }
 			}
 			else {
-				var popup = document.createElement("div");
-				l1 = document.createElement("span");
-				l1.setAttribute("class", 'officer-label');
-				l1.appendChild(document.createTextNode(officer.positions[0] + " - " + officer.fn + " " + officer.ln + " - " + officer.pledgeyear + "<br>"));
-				popup.append(l1);
-				l2 = document.createElement("span");
-				l2.setAttribute("class", 'officer-label');
-				l2.appendChild(document.createTextNode(officer.major + " - " + officer.class + "<br>"));
-				popup.append(l2);
-				l3 = document.createElement("span");
-				l3.setAttribute("class", 'officer-label');
-				l3.appendChild(document.createTextNode(officer.email + "<br>"));
-				popup.append(l3);
+			// 	var popup = document.createElement("div");
+			// 	l1 = document.createElement("span");
+			// 	l1.setAttribute("class", 'officer-label');
+			// 	l1.appendChild(document.createTextNode(officer.positions[0] + " - " + officer.fn + " " + officer.ln + " - " + officer.pledgeyear + "<br>"));
+			// 	popup.append(l1);
+			// 	l2 = document.createElement("span");
+			// 	l2.setAttribute("class", 'officer-label');
+			// 	l2.appendChild(document.createTextNode(officer.major + " - " + officer.class + "<br>"));
+			// 	popup.append(l2);
+			// 	l3 = document.createElement("span");
+			// 	l3.setAttribute("class", 'officer-label');
+			// 	l3.appendChild(document.createTextNode(officer.email + "<br>"));
+			// 	popup.append(l3);
+			// 	var info = new Popper(hex, popup, {
+			// 			placement: (direction == 1 ? 'right' : 'left')
+			// 		});
+			// 	group.on("click", function(x){
+			// 		info.show();
 				group.on("click", function(x){
-					var info = new Popper(hex, popup, {
-						placement: (direction == 1 ? 'right' : 'left')
-					});
+					var w = window.innerWidth * .9;
+					var h = window.innerHeight * .3;
+					var info = svg.append('g')
+						.attr('id', "officer-bio")
+						.attr('transform', 'translate(' + (window.innerWidth * .05) + ',15)')	
+						.attr('birthday', Date.now());
+					var info_box = info.append('rect')
+						.attr('width', w)
+						.attr('height', window.innerHeight * .3);
+					info.append('text')
+						.text(officer.get_name())
+						.attr('x', w / 3)
+						.attr('y', 30)
+						.attr('width', w/1.5)
+						.attr('transform', 'scale(1.5)')
+						.style('text-anchor', 'middle');
+					info.append('text')
+						.text(officer.positions[0])
+						.attr('x', w / 2)
+						.attr('y', h/2)
+						.attr('width', w)
+						.style('text-anchor', 'middle');
+					info.append('a')
+						.attr('href', 'mailto:'+officer.email)
+						.append('text')
+							.text(officer.email)
+							.attr('x', w / 2)
+							.attr('y', h - 40)
+							.attr('width', w)
+							.style('text-anchor', 'middle')
+							.style('fill', 'blue')
+							.style('text-decoration', 'underline');
+
 				});
 			}
 			return hex;
+		}
+
+		function dismiss_box_if_exists()
+		{
+			box = d3.select('#officer-bio');
+			// var box_exists = box.empty();
+			// var box_old = box.attr('birthday')
+			if (!box.empty() && Date.now() - box.attr('birthday') > 125 && !$(event.target).closest('#officer-bio').length)
+			{
+				box.remove();
+			}
+		}
+
+		function draw_info(officer, x, y, r, parent, direction)
+		{
+			var h = r / 6;
+			l1 = parent.append('text')
+				.text(officer.positions[0] + " - " + officer.fn + " " + officer.ln + " - " + officer.pledgeyear)
+				.attr('class', 'officer-label')
+				.attr('x', x + direction * r)
+				.attr('y', y - (r / 2) + h);
+			l2 = parent.append('text')
+				.text(officer.major + " - " + officer.class)
+				.attr('class', 'officer-label')
+				.attr('x', x + direction * r)
+				.attr('y', y - (h / 2) + h);
+			l3 = parent.append('a')
+				.attr('href', "mailto:" + officer.email)
+				.append('text')
+					.text(officer.email)
+					.attr('class', 'officer-label officer-link')
+					.attr('x', x + direction * r)
+					.attr('y', y + (r / 2));
+			if (direction == -1){
+				l1.style('text-anchor', 'end');
+				l2.style('text-anchor', 'end');
+				l3.style('text-anchor', 'end');
+			}
 		}
 
 		// main script
