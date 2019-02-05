@@ -215,6 +215,7 @@
 				group.on("click", function(x){
 					var w = window.innerWidth * .9;
 					var h = window.innerHeight * .3;
+					var scale_factor = window.innerHeight / 525;
 					var info = svg.append('g')
 						.attr('id', "officer-bio")
 						.attr('transform', 'translate(' + (window.innerWidth * .05) + ',15)')	
@@ -224,24 +225,26 @@
 						.attr('height', window.innerHeight * .3);
 					info.append('text')
 						.text(officer.get_name())
-						.attr('x', w / 3)
+						.attr('x', w / (3 * scale_factor))
 						.attr('y', 30)
-						.attr('width', w/1.5)
-						.attr('transform', 'scale(1.5)')
+						.attr('width', w/(1.5 * scale_factor))
+						.attr('transform', 'scale(' + 1.5 * scale_factor + ')')
 						.style('text-anchor', 'middle');
 					info.append('text')
 						.text(officer.positions[0])
-						.attr('x', w / 2)
-						.attr('y', h/2)
-						.attr('width', w)
+						.attr('transform', 'scale(' + scale_factor + ')')
+						.attr('x', w / (2 * scale_factor))
+						.attr('y', h / (2 * scale_factor))
+						.attr('width', w / scale_factor)
 						.style('text-anchor', 'middle');
 					info.append('a')
 						.attr('href', 'mailto:'+officer.email)
 						.append('text')
 							.text(officer.email)
-							.attr('x', w / 2)
-							.attr('y', h - 40)
-							.attr('width', w)
+							.attr('transform', 'scale(' + scale_factor + ')')
+							.attr('x', w / (2 * scale_factor))
+							.attr('y', (h - 60) / scale_factor)
+							.attr('width', w / scale_factor)
 							.style('text-anchor', 'middle')
 							.style('fill', 'blue')
 							.style('text-decoration', 'underline');
