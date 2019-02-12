@@ -203,8 +203,7 @@ footer {
 	border: 1pt var(--prussian-blue) inset;
 	margin: 1% 1% 1% 1%;
 	padding: .5% .5% .5% .5%;
-	overflow-y: auto;
-	height: auto;
+	height: 256px ;
 }
 
 .bro-portrait {
@@ -214,10 +213,11 @@ footer {
 	margin: 1% 1% 1% 1%;
 	border-radius: 8px;
 	border: 2px solid var(--prussian-blue);
+	overflow: hidden;
 }
 
 .bro-name {
-	display: inline;
+	display: inline-block;
 	margin-left: .5%;
 	margin-right: .5%;
 }
@@ -234,17 +234,10 @@ footer {
 	text-indent: .5cm;
 }
 
-@media only screen and (min-width: 800px)
-{
-	.bro {
-		min-height: 256px ;
-	}
-}
-
 @media only screen and (max-width: 800px)
 {
 	.bro {
-		min-height: 325px;
+		height: 325px;
 	}
 	.bro-portrait {
 		width: 128px;
@@ -259,12 +252,16 @@ footer {
 		height: 100px;
 		width: 100px;
 	}
-} 
+
+	.bro {
+		height: 512px;
+	}
+}
 
 @media only screen and (max-width: 400px)
 {
 	.bro {
-		min-height: 120px;
+		overflow-y: auto;
 	}
 }
 
@@ -306,16 +303,7 @@ legend {
 	width: 100%;
 }
 
-#rushweekposter {
-	margin-left: auto;
-	margin-right: auto;
-	display: block;
-}
-
 @media only screen and (max-width: 900px) {
-	#rushweekposter {
-		width: 97.5%;
-	}
 	#events-small {
 		margin-left: 0%;
 		margin-right: 0%;
@@ -339,9 +327,6 @@ legend {
 }
 	
 @media only screen and (min-width: 900px) {
-	#rushweekposter {
-		width: 60%;
-	}
 	#events-small {
 		border: 1px solid var(--prussian-blue);
 		width: 900px;
@@ -364,7 +349,7 @@ legend {
 
 /*override*/
 .nav-item {
- 	font-size: 18pt;
+ 	font-size: 20pt;
 }
 
 .nav-link {

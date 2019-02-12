@@ -8,4 +8,3 @@
 <script src="https://d3js.org/d3.v4.min.js"></script>
 <script type="text/javascript" src="js/scripts.js"></script>
 <script type="text/javascript" src="https://unpkg.com/popper.js/dist/umd/popper.min.js"></script>
-<meta property="og:image" content="images/crest.png">
