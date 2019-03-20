@@ -32,6 +32,9 @@
 			<a class='nav-link' href="https://www.alphachisigma.org/">national website</a>
 		</li>
 		<li class="nav-item">
+			<a class='nav-link' href="social_media.php">social media</a>
+		</li>
+		<li class="nav-item">
 			<a class='nav-link' href="contact_us.php">contact us</a>
 		</li>
 	</ul>
@@ -46,6 +49,7 @@
 	    	<a class="dropdown-item nav-item nav-link" href="meet_brother.php">meet the brothers</a>
 	    	<a class="dropdown-item nav-item nav-link" href="become_a_brother.php">become a brother</a>
 	    	<a class="dropdown-item nav-item nav-link" href="https://www.alphachisigma.org/">national website</a>
+	    	<a class="dropdown-item nav-item nav-link" href="social_media.php">social media</a>
 	    	<a class="dropdown-item nav-item nav-link" href="contact_us.php">contact us</a>
   		</div>
 	</div>

@@ -10,6 +10,14 @@
 			<p id="home-page-text">
 				Welcome to the website of the Beta Sigma chapter of the Alpha Chi Sigma professional co-ed chemistry fraternity, located at the Rochester Institute of Technology in Rochester, NY.
 			</p>
+			<hr>
+			<figure class="botw">
+			</figure>
+			<script type="text/javascript" src='js/brother_of_the_week.js'></script>
+			<script type="text/javascript">
+				load_botw_xml(draw_botw);
+			</script>
+			<hr>
 			<figure id="bros">
 				<!--
 				<div id="bros-pic-box">
@@ -18,11 +26,15 @@
 				<figcaption>Beta Sigma as of Spring 2018 (Along with some Brothers from Tau chapter). From top-left: Dan Verrico, Peyton Kunselman, Jared Ponzetti, Nathan Johnson, Joe Discua, Matthew Bonney, Eliot Patnode, Hannah Sheldon, Tulio Geraci, Dennis Bogdan, Jordan Dejewski, Kevin Hernandez, Alex North, Sean Su, Hannah Thompson, Aubrey Holand, Dan Saviola, Dave Kozlowski, Alexis Slenz, Trent Mochel, Hira Abid, Brian Zeberl, Elizabeth (&#120591;), Cynthia (&#120591;), Dr. Jeremy Cody, Alexis LaSalle, Joe Hunt, Andrew (&#120591), Sam Burger, Will Charbonneau, Luke Lanza. Not picured Josh Evans.</figcaption>
 				-->
 				<div id="bros-pic-box">
-					<img src="images/brodayfall2018.png" id="bros-pic">
+					<img id="bros-pic">
 				</div>
 				<figcaption>
-					Beta Sigma as of Fall 2018. From top-left: Jordan Dejewski, Colin Pierce, Micah Sidorick, Dennis Bogdan, Peyton Kunselman, Tullio Geraci, Alexis Slentz, Rob Winter, Sean Su, Peter Yochim (Nu Chapter), Dan Verrico, Jeff Mills, Dan Saviola, Izzy Updike, Alex North, Elliot Patnode, Jordan McNaughton, Hannah Sheldon, Matthew Bonney, Will Charbonneau, Kevin Hernandez, Jaser Iniguez, Victoria Adams, Sam Burger, Joshua Evans, <span id="best-big">Dana Soika</span>, Joe Discua, Hannah Thompson, Jared Ponzetti, Andrew Morris, Denise Grimon, Lili Shelby, Aubrey Holland, Alexis LaSalle. Not pictured: Luke Lanza
-				</figcaption>
+				<script type="text/javascript">
+					load_image('18fallbroday_grouppic', function(cover_pic) {
+						$('#bros-pic').attr('src', cover_pic.src);
+						$('#bros figcaption').html(cover_pic.caption);						
+					});
+				</script>
 			</figure>
 			<fieldset class="container" id="events-small">
 				<legend>Upcoming Events</legend>

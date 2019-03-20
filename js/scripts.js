@@ -18,11 +18,14 @@ function load_brothers(xml, list, filter=function(x){return true;}, sort_functio
   		bro.pledgeyear = node.getElementsByTagName("PledgeYear")[0].innerHTML;
         bro.email = read_if_exists(node, "Email");
   		bro.bio = read_if_exists(node, "Bio");
-        bro.pic = "images/bro_portraits/" + bro.fn + "_" + bro.ln + ".png";
+        bro.pic = "images/bro_portraits/" + bro.fn + "_" + bro.ln.replace(' ','').replace('-','').replace('.','')  + ".png";
         if (node.getElementsByTagName("HasPic").length  == 0) {
             bro.pic = "images/no_pic.png";
         }
-        bro.id = bro.fn + bro.mn + bro.ln;
+        if (node.getElementsByTagName("ID").length > 0)
+            bro.id = node.getElementsByTagName("ID")[0].innerHTML;
+        else
+            bro.id = bro.fn + bro.mn + bro.ln;
         bro.littles = [];
   		bro.get_portrait_src = function(){return this.pic;}
         bro.has_portrait = function(){
@@ -47,32 +50,71 @@ function load_brothers(xml, list, filter=function(x){return true;}, sort_functio
             return this.bio.replace(/^\s+/, '').replace(/\s+$/, '') != "";
         };
         bro.get_name = function() {
-            return this.fn + " " + this.mn + " " + this.ln + " " + this.suffix;
+            var name = this.fn + " ";
+            if (this.mn != "")
+                name = name + this.mn + " ";
+            name = name + this.ln;
+            if (this.suffix != "")
+                name = name + " " + this.suffix;
+            return name;
         };
   	 	if (filter(bro))
         {
     		list.push(bro);
         }
+        list.get = function(id){
+            for (i in this) {
+                if (this[i].id == id)
+                    return this[i];
+            }   
+            return null;
+        }
     }
+
+    // these two loops could prob. be merged but i tried and it was *hard*
+    for (var i = 0; i < list.length; i++)
+    {
+        var littlecheck = list[i]
+        for (var k = 1; k < list.length; k++){
+            var bigcheck = list[(i + k) % list.length]
+            if (littlecheck.big == bigcheck.get_name()) // if littlecheck is bigcheck's little
+            {
+                littlecheck.big_link = bigcheck;
+                bigcheck.littles.push(littlecheck);
+                break;
+            }
+        }
+        if (littlecheck.big_link == null)
+            console.log(littlecheck.get_name() + " does not have a big. Is this okay?");
+        list[i].is_ancestor = function(other){
+            var n = this.big_link;
+            while (n != null)
+            {
+                if (n == other) {
+                    return true;
+                }
+                n = n.big_link;
+            }
+            return false;
+        };
+    }
+    // bubble sort should be fine.
     if (sort_function != null) {
-        // bubble sort should be fine.
+        var list_sorted = false;
         for (var j = 0; j < list.length; j++){
-            for (var i = 0; i < list.length -  1; i++){
+            list_sorted = true; // assume the list is sorted. if any of the order needs to be corrected, it's not sorted
+            for (var i = 0; i < list.length - 1; i++){ 
                 var a = list[i];
                 var b = list[i + 1];
+
                 if (sort_function(a, b)) {
                     list[i] = b;
                     list[i + 1] = a;
+                    list_sorted = false;
                 }
-                if ( list[j].big_link == undefined && list[j].big != "" && list[j].big.replace(' ', '') == a.id)
-                {
-                    list[j].big_link = a;
-                    a.littles.push(list[j]);
-                }
-                else {
-                    list[j].big_link = null;
-                }
-            }    
+            }
+            if (list_sorted) //if no items are out of order, exit the sort loop
+                break;
         }
     }
 }
@@ -96,9 +138,68 @@ function brothers_with_positions(list, positions)
     return ordered_list;
 }
 
-function order_by(a, b, positions_order)
+function load_gallery(list, filter=function(x){return true;}, do_with)
 {
+    $.ajax({
+   		url: "gallery_preprocess.php",
+   		success: function() {
+	        for (var node = this.responseXML.documentElement.firstElementChild; node != null; node = node.nextElementSibling)
+	        {
+	           	var img = parse_image_data(node);
+	           	if (filter(img))
+	            {
+	                list.push(img);
+	            }
+	            do_with(list)
+	        }
+	    }
+    });
+    xhttp.open("GET", "gallery_preprocess.php", true);
+    xhttp.send();
+}
 
+function parse_image_data(node)
+{
+	var img = Object();
+    img.date = Date(node.getElementsByTagName("Date")[0].innerHTML);
+    img.pic_id = node.getElementsByTagName("PicID")[0].innerHTML;
+    img.caption = node.getElementsByTagName("Caption")[0].innerHTML;
+    img.bros = [];
+    var bros_node = node.getElementsByTagName("Brothers");
+    if (bros_node.length > 0)
+    {
+        for (var k = bros_node[0].firstElementChild; k != null; k = k.nextElementSibling)
+        {
+            img.bros.push(k.innerHTML);
+        }
+    }
+    img.tags = [];
+    var tags_node = node.getElementsByTagName("Tags");
+    if (tags_node.length > 0)
+    {
+        for (var k = tags_node[0].firstElementChild; k != null; k = k.nextElementSibling)
+        {
+            img.tags.push(k.innerHTML);
+        }
+    }
+    //the following properties are used by photoswipe and must retain the same names
+    img.title = node.getElementsByTagName("Title")[0].innerHTML;
+    img.src = "./images/gallery/" + img.pic_id + ".jpg";
+    img.width = node.getElementsByTagName("Width")[0].innerHTML;
+    img.height = node.getElementsByTagName("Height")[0].innerHTML;
+    return img;
+}
+
+function load_image(img_id, do_with)
+{
+   	$.ajax({
+   		url: "gallery_preprocess.php?id=" + img_id,
+   		success: function(result) {
+   			var elmnt = $.parseXML(result).documentElement;
+			var img = parse_image_data(elmnt);
+			do_with(img);
+    	}
+    });
 }
 
 function index_contains(haystack, needles)

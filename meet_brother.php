@@ -41,11 +41,9 @@
 				}
 
 				// main script
-				var xhttp = new XMLHttpRequest();
-				xhttp.overrideMimeType('application/xml');
-				xhttp.onreadystatechange = function() {
-				    if (this.readyState == 4 && this.status == 200) {
-				    	xml = this.responseXML;
+				$.ajax({
+					url: 'brothers.xml',
+					success: function(xml) {
 				    	filter = function(x){
 				    		return x.positions[0] != "Alum";//x.position != "Alum" && (x.has_bio() || x.has_portrait());
 				    	}
@@ -76,12 +74,8 @@
 				    	}
 				        load_brothers(xml, bros, filter, sort_func);
 				        draw_brothers();
-				    }
-				};
-
-
-				xhttp.open("GET", "brothers.xml", true);
-				xhttp.send();
+					}
+				});
 			</script>
 			<?php include('footer.php'); ?> 
 		</main>

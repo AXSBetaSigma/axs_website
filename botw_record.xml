@@ -1,0 +1,25 @@
+<!-- 
+	IMPORTANT! The website expects that these entries will be sorted chronologically, with the most recent at the top, 
+	followed by the second most recent, etc. down to the oldest at the bottom.
+	If you fuck this up, SHIT WILL BREAK~!!! -->
+<BrothersOfTheWeek>
+	<BoTW>
+		<ID>AndrewMorris</ID>
+		<WeekOf>2019-03-18</WeekOf>
+	<BoTW>
+		<ID>PeytonKunselman</ID>
+		<WeekOf>2019-02-25</WeekOf>
+	</BoTW>
+	<BoTW>
+		<ID>ElliotPatnode</ID>
+		<WeekOf>2019-02-18</WeekOf>
+	</BoTW>
+	<BoTW>
+		<ID>DeniseGrimon</ID>
+		<WeekOf>2019-02-11</WeekOf>
+	</BoTW>
+	<BoTW>
+		<ID>AlexisSlentz</ID>
+		<WeekOf>2019-02-04</WeekOf>
+	</BoTW>
+</BrothersOfTheWeek>

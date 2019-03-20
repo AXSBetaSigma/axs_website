@@ -324,6 +324,10 @@ legend {
 	#bros-pic-box {
 		width: 100%;
 	}
+
+	.botw img {
+		width: 40%
+	}
 }
 	
 @media only screen and (min-width: 900px) {
@@ -344,6 +348,18 @@ legend {
 
 	#bros-pic-box {
 		width: 80%;
+	}
+
+	.botw {
+		width: 90%;
+	}
+
+	.botw br {
+		display: none;
+	}
+
+	.botw img {
+		width: 22.5%;
 	}
 }
 
@@ -391,5 +407,37 @@ legend {
 .social-media-icon {
 	width: 64px;
 	height: 64px;
+	margin: 4px 4px 4px 4px;
+}
+
+/* tree stuff*/
+.tree-bro-rect {
+	fill: var(--chrome-yellow);
+	stroke: var(--prussian-blue);
+	stroke-width: 1px;
+}
+
+.tree-bro-label {
+	text-anchor: center;
+}
+
+.botw {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.botw h1 {
+	color: black;
+	font-family: inherit;
+}
+
+.botw figcaption {
+	margin: 2% 2% 2% 2%;
+}
+
+.botw img {
+	border: 1px solid var(--prussian-blue);
+	border-radius: 8px;
 	margin: 4px 4px 4px 4px;
 }
