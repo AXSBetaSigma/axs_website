@@ -63,11 +63,12 @@ function draw_trees(selection, roots)
 {
 	var scale = d3.scaleLinear()
 		.domain([0, 1000])
-		.range([0, selection.attr("width")]);
+		.range([0,'1000px']);
 	for (r in roots)
 	{
 		var group = selection.append('g');
 		draw_tree(group, scale, roots[r]);
+		break;
 	}
 }
 
@@ -94,6 +95,7 @@ function draw_tree(selection, scale, r)
 	brother_group.attr('transform', function(d){
 		return "translate(" + d.x() + "," + d.y() + ")";
 	});
+	brother_group.attr('name', function(d){return d.id;})
 	brother_group.append("rect")
 		.attr("class", "tree-bro-rect")
 		.attr("width", scale(STD_LEAF_W))
@@ -108,18 +110,23 @@ function draw_tree(selection, scale, r)
 		.text(function(x){return x.get_name();});
 	brother_group.append('line')
 		.style("display", function(d, i){
-			return in_tree.includes(d.big_link) ? "none" : "default";
+			return in_tree.includes(d.big_link) ? "default" : "none";
 		})
 		.attr("x1", function(d, i){
-			return in_tree.includes(d.big_link) ? 0 : d.big_link.x() + scale(STD_LEAF_W / 2);
+			return in_tree.includes(d.big_link) ? scale( d.big_link.x()  + (STD_LEAF_W / 2)) : 0;
 		})
 		.attr("y1", function(d, i){
-			return in_tree.includes(d.big_link) ? 0 : d.big_link.y() + scale(STD_LEAF_H);
+			return in_tree.includes(d.big_link) ? scale(d.big_link.y() + STD_LEAF_H) : 0;
 		})
 		.attr("x2", function(d, i){
 			return scale(STD_LEAF_W / 2);
 		})
 		.attr("y2", function(d, i){
-			return 0;
-		})
+			return scale(STD_LEAF_H);
+		}) 
+	var max_w = Math.max.apply(null, in_tree.map(function(d){return d.x();}));
+	var max_h = Math.max.apply(null, in_tree.map(function(d){return d.y();}));
+	$('#tree-svg')
+		.attr('width', 	scale(max_w))
+		.attr('height', scale(max_h));
 }

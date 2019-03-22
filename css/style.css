@@ -411,6 +411,15 @@ legend {
 }
 
 /* tree stuff*/
+#tree-svg {
+
+}
+
+#tree-container {
+	overflow-x: scroll;
+	overflow-y: scroll;
+}
+
 .tree-bro-rect {
 	fill: var(--chrome-yellow);
 	stroke: var(--prussian-blue);
@@ -418,9 +427,15 @@ legend {
 }
 
 .tree-bro-label {
-	text-anchor: center;
+
 }
 
+#tree-svg line {
+	stroke: var(--prussian-blue);
+	stroke-width: 20px;
+}
+
+/*botw stuff*/
 .botw {
 	margin-left: auto;
 	margin-right: auto;

@@ -8,8 +8,9 @@
 		<main>
 			<?php include('header.php'); ?>
 			<select multiple id="tree-root-select" onchange="refresh_tree()"></select>
-			<svg id="tree-svg" width='800px'>
-			</svg>
+			<div id="tree-container">
+				<svg id="tree-svg" width='800px'></svg>
+			</div>
 			<script type="text/javascript" src="js/tree.js"></script>
 			<script type="text/javascript">
 				var bros = [];

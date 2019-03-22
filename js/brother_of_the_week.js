@@ -19,6 +19,8 @@ var get = function(date=null, start=null, end=null){
 	var b = botws[halfpoint];
 	if (b.week_of.getTime() <= date.getTime() && date.getTime() <= b.week_end.getTime())
 		return b;
+	else if (end - start == 1)
+		return null;
 	else if (date.getTime() < b.week_of.getTime())
 		return get(date, halfpoint, end); // because reverse order, lower date val -> higher idx
 	else if (b.week_end.getTime() < date.getTime())
@@ -43,7 +45,7 @@ function draw_botw(d=null){
 			botw_top.append(pic);
 		}
 		botw_top.append($('<figcaption></figcaption>'));
-		$(selector + 'figcaption').html(botw.bro.bio);
+		$(selector + ' figcaption').html(botw.bro.bio);
 	}	
 }
 
