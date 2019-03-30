@@ -7,9 +7,12 @@
 	<body>
 		<main>
 			<?php include('header.php'); ?>
-			<select multiple id="tree-root-select" onchange="refresh_tree()"></select>
+			<div id="tree-bar">
+				<select multiple id="tree-root-select" onchange="refresh_tree()"></select>
+				<ul class="nav nav-pills nav-fill" id="trees-nav">
+				</ul>
+			</div>
 			<div id="tree-container">
-				<svg id="tree-svg" width='800px'></svg>
 			</div>
 			<script type="text/javascript" src="js/tree.js"></script>
 			<script type="text/javascript">
@@ -43,7 +46,7 @@
 				    if (selected.length)
 					    selected = bros.filter(function(x){return x.positions[0] != "Alum";});
 				    var trees = get_tree_roots(selected);
-				    draw_trees(d3.select('#tree-svg'), trees);
+				    draw_trees(trees);
 				}
 
 			</script>

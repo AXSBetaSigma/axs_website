@@ -136,7 +136,7 @@ h6 {
 		display: none;
 	}
 
-	.nav-item {
+	.main-nav-item {
 		width: 100%;
 	}
 
@@ -167,7 +167,7 @@ h6 {
 	#mobile-nav-bar {
 		display: none;
 	}
-}
+}s
 
 /* ------ footer ------ */
 
@@ -364,7 +364,7 @@ legend {
 }
 
 /*override*/
-.nav-item {
+.main-nav-item {
  	font-size: 20pt;
 }
 
@@ -411,8 +411,8 @@ legend {
 }
 
 /* tree stuff*/
-#tree-svg {
-
+.tree-svg {
+	border: 2px solid black;
 }
 
 #tree-container {
@@ -430,9 +430,13 @@ legend {
 
 }
 
-#tree-svg line {
+.tree-nav-item {
+
+}
+
+.tree-svg line {
 	stroke: var(--prussian-blue);
-	stroke-width: 20px;
+	stroke-width: 1px;
 }
 
 /*botw stuff*/

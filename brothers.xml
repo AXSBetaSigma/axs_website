@@ -576,6 +576,24 @@
 	<!-- *********************************** Alumni only below this point ********************************* -->
 	<Brother>
 		<Position>Alum</Position>
+		<FirstName>Jeffrey</FirstName>
+		<LastName>Mills</LastName>
+		<Big>William Charbonneau</Big>
+		<Major>Chemistry</Major>
+		<Class></Class>
+		<PledgeYear>Spring '18</PledgeYear>
+	</Brother>
+	<Brother>
+		<Position>Alum</Position>
+		<FirstName>Jeremy</FirstName>
+		<LastName>Cody</LastName>
+		<Big>Alexis LaSalle</Big>
+		<Major>Chemistry</Major>
+		<Class></Class>
+		<PledgeYear>Spring '18</PledgeYear>
+	</Brother>
+	<Brother>
+		<Position>Alum</Position>
 		<FirstName>Dan</FirstName>
 		<LastName>Saviola</LastName>
 		<Big>Katelyn Olney</Big>
